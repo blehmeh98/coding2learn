@@ -1,4 +1,4 @@
-user_1067344386@ssh.coding2learn.orgrequire "rubygems"
+require "rubygems"
 require "bundler/setup"
 require "stringex"
 
