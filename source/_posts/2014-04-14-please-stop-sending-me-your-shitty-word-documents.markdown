@@ -7,7 +7,7 @@ categories: Word
 ---
 _Throughout this rant I use the second-person personal pronoun (you) quite a lot. This does not necessarily mean I am speaking to 'You' the reader, but rather some other 'You' who will probably never read this anyway._
 
-When Microsoft announced Office for iPad I shed a small tear. Now, Excel is an incredibly useful application, without which my managers couldn't inundate me with graphs, statistics and indecipherable Look-ups that reference hidden and protected sheets. PowerPoint allows literally anyone (regardless of their public speaking skills, understanding of image aspect ratios, or ability to use less than 15 different fonts on a single slide) to prepare presentations for their audience. What upset me however was the fact that all of a sudden, swathes of iPad users will now have the ability to view, edit and most worryingly of all - create Microsoft Word documents.
+When Microsoft announced Office for iPad I shed a small tear. Excel is an incredibly useful application, without which my managers couldn't inundate me with graphs, statistics and indecipherable Look-ups that reference hidden and protected sheets. PowerPoint allows literally anyone (regardless of their public speaking skills, understanding of image aspect ratios, or ability to use less than 15 different fonts on a single slide) to prepare presentations for their audience. These apps becoming available on iOS did not worry me. What upset me however, was the fact that all of a sudden, swathes of iPad users will now have the ability to view, edit and most worryingly of all - create Microsoft Word documents.
 
 Here's what I have installed on my Mac:
 
@@ -34,7 +34,7 @@ What happens when I finally manage to open your document? Well 90% of the time, 
 
 ### Are you really that good a designer?
 
-The only possible reason I can imagine that you had to send me the document in Word format is because you are the world's finest graphic designer/type-setter and that your choice of fonts, margins, kerning and paragraph indentation are so awe-inspiring that the very act of viewing the document will have me gouging my eyes out with a spoon, knowing that the gift of sight is no longer of any consequence as I shall never again behold a thing of such beauty. Of course the small flaw in your plan is that I don't have the Lucida handwriting font installed on my system, and Preview struggles to display Word-Art clearly, so all your efforts are probably in vain.
+The only possible reason I can imagine that you had to send me the document in Word format is because you are the world's finest graphic designer/type-setter. Maybe your choice of fonts, margins, kerning and paragraph indentation are so awe-inspiring, that the very act of viewing the document will have me gouging my eyes out with a spoon, knowing that the gift of sight is no longer of any consequence as I shall never again behold a thing of such beauty. Of course the small flaw in your plan is that I don't have the Lucida handwriting font installed on my system, and Preview struggles to display Word-Art clearly, so all your efforts are probably in vain.
 
 ### Tables grrrr!
 
@@ -42,7 +42,7 @@ Sometime you send me the Word document as a container for other joys, such as ta
 
 ### What's with the crud
 
-Sometimes the documents you send me contain other _interesting_ elements. You feel the need to augment your text with such things as; little animated gifs of a stick man who is frustrated with his computer, borders of coloured apples, 3D Word-Art. Now I know you think that such embellishments will bring a smile to my face and ease my reading of your text, but I'm sorry to inform you that you're wrong. Very wrong. Criminally wrong. You see, with out Word installed, I won't be able to view these quirky little additions to you plain text, and I'm _never_ going to install Word, so what was the point.
+Sometimes the documents you send me contain other _interesting_ elements. You feel the need to augment your text with such things as; little animated gifs of a stick-man who is frustrated with his computer, borders of coloured apples and 3D Word-Art. Now I know you think that such embellishments will bring a smile to my face and ease my reading of your text, but I'm sorry to inform you that you're wrong. Very wrong. Criminally wrong. You see, with out Word installed, I won't be able to view these quirky little additions to you plain text. Your efforts were in vain. I could additionally argue that if your text was too boring, without such witty little quirks, then you might like to consider whether the _content_ is worth reading in the first place.
 
 ### A heartfelt plea
 
