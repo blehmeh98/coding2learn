@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Word | Coding 2 Learn]]></title>
+  <link href="http://coding2learn.org/blog/categories/word/atom.xml" rel="self"/>
+  <link href="http://coding2learn.org/"/>
+  <updated>2014-10-06T21:15:54+01:00</updated>
+  <id>http://coding2learn.org/</id>
+  <author>
+    <name><![CDATA[Marc Scott]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Please Stop Sending Me Your Shitty Word Documents]]></title>
+    <link href="http://coding2learn.org/blog/2014/04/14/please-stop-sending-me-your-shitty-word-documents/"/>
+    <updated>2014-04-14T16:07:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2014/04/14/please-stop-sending-me-your-shitty-word-documents</id>
+    <content type="html"><![CDATA[<p><em>Throughout this rant I use the second-person personal pronoun (you) quite a lot. This does not necessarily mean I am speaking to &lsquo;You&rsquo; the reader, but rather some other &lsquo;You&rsquo; who will probably never read this anyway.</em></p>
+
+<p>When Microsoft announced Office for iPad I shed a small tear. Excel is an incredibly useful application, without which my managers couldn&rsquo;t inundate me with graphs, statistics and indecipherable Look-ups that reference hidden and protected sheets. PowerPoint allows literally anyone (regardless of their public speaking skills, understanding of image aspect ratios, or ability to use less than 15 different fonts on a single slide) to prepare presentations for their audience. These apps becoming available on iOS did not worry me. What upset me however, was the fact that all of a sudden, swathes of iPad users will now have the ability to view, edit and most worryingly of all &ndash; create Microsoft Word documents.</p>
+
+<p>Here&rsquo;s what I have installed on my Mac:</p>
+
+<ul>
+<li>Alfred &ndash; searching for anything</li>
+<li>Python &ndash; coding anything</li>
+<li>VLC &ndash; watching anything</li>
+<li>FireFox &ndash; browsing anything</li>
+<li>Homebrew &ndash; installing anything</li>
+<li>Emacs &ndash; anything</li>
+</ul>
+
+
+<p>You&rsquo;ll notice that Word is not on the list. I have nothing against people who use Word, I am just not one of them. There was a time when if I wanted to put text on a screen, it was my go to software, and I thought I was a pretty 1337 hacker because I knew how to do mail merges. I&rsquo;m not that guy anymore. I don&rsquo;t tell you what software to install on your computer, and I don&rsquo;t assume you have the same software installed as me. For this reason I am careful to use non-proprietary file types when sending documents via email. I expect the same courtesy from you, and here&rsquo;s why&hellip;</p>
+
+<h3>I don&rsquo;t have Word installed</h3>
+
+<p>When you send me a Word document, you are making some pretty major assumptions, and as Samuel L. Jackson once said in the outstandingly amazing film <em>The Long Kiss Goodnight</em></p>
+
+<blockquote><p>&ldquo;When you make an assumption, you make an ass out of &lsquo;u&rsquo; and &lsquo;mption&rsquo;.&rdquo;</p></blockquote>
+
+<p>Firstly you assume that I have Word or some clone of it installed. I know you think the words &lsquo;Computer&rsquo;, &lsquo;Microsoft&rsquo;, &lsquo;Windows&rsquo; and &lsquo;Office&rsquo; are synonymous, but they&rsquo;re not and there are plenty of people in the world who use *nix operating systems.  By sending me a .docx file you&rsquo;re forcing me to find a work around, so that I can use your document. What are my options? Well I could install an Office clone like Libre or Pages. I could use an online service like Google Docs or Zoho. I could even attempt to get Emacs to read the data and make a go of presenting it to me in some recognisable format. Do you see what you&rsquo;ve done? You&rsquo;ve made more work for me. You&rsquo;ve sent me a locked box and asked me to either pay to get a key cut or smash it open with a crowbar.</p>
+
+<h3>Plain text should be plain</h3>
+
+<p>What happens when I finally manage to open your document? Well 90% of the time, all it contains is text. That&rsquo;s it. Text. Strings of characters. So why the hell did you send it as a Word document to begin with? Why not just write the text directly into the body of the email? If it&rsquo;s that important for you to write in Word, then save it as a .txt file. There&rsquo;s not a computer on the planet that can&rsquo;t read plain-text. (Well, that&rsquo;s not technically true, as I&rsquo;m pretty sure my Microwave contains a computer, but that&rsquo;s besides the point.)</p>
+
+<h3>Are you really that good a designer?</h3>
+
+<p>The only possible reason I can imagine that you had to send me the document in Word format is because you are the world&rsquo;s finest graphic designer/type-setter. Maybe your choice of fonts, margins, kerning and paragraph indentation are so awe-inspiring, that the very act of viewing the document will have me gouging my eyes out with a spoon, knowing that the gift of sight is no longer of any consequence as I shall never again behold a thing of such beauty. Of course the small flaw in your plan is that I don&rsquo;t have the Lucida handwriting font installed on my system, and Preview struggles to display Word-Art clearly, so all your efforts are probably in vain.</p>
+
+<h3>Tables grrrr!</h3>
+
+<p>Sometime you send me the Word document as a container for other joys, such as tables. I understand that a .csv is ugly to behold, but computers don&rsquo;t tend to worry about aesthetics too much, so they really are preferable. There are prettier tables available if you&rsquo;re into that kind of thing. HTML tables are great, easy to parse and render, but Microsoft obviously think they&rsquo;re the devil&rsquo;s work and so prefer to use their own method of tabulating data. I don&rsquo;t know how Microsoft has chosen to represent tables in their .docx files, but I do know that if Linus, Stallman and ESR got together and hacked away for a decade or so, they wouldn&rsquo;t be able to create a program that could render a sodding table created in Word, correctly.</p>
+
+<h3>What&rsquo;s with the crud</h3>
+
+<p>Sometimes the documents you send me contain other <em>interesting</em> elements. You feel the need to augment your text with such things as; little animated gifs of a stick-man who is frustrated with his computer, borders of coloured apples and 3D Word-Art. Now I know you think that such embellishments will bring a smile to my face and ease my reading of your text, but I&rsquo;m sorry to inform you that you&rsquo;re wrong. Very wrong. Criminally wrong. You see, with out Word installed, I won&rsquo;t be able to view these quirky little additions to you plain text. Your efforts were in vain. I could additionally argue that if your text was too boring, without such witty little quirks, then you might like to consider whether the <em>content</em> is worth reading in the first place.</p>
+
+<h3>A heartfelt plea</h3>
+
+<p>So please&hellip; pretty please&hellip; please with bells on top, borders of apples and the word <em>PLEASE</em> written in bright blue Word-Art; think next time you want to send a Word document by email or put one on your website, think about your recipient. Could you use the body of the email or a page on the site? Perhaps you could save the file as a .txt, .rtf or PDF. Just spare a thought for those of us that <em>choose</em> not to use Microsoft Word, and respect our right not to do so.</p>
+
+<p>Oh&hellip; and learn to write in sodding Markdown.</p>
+]]></content>
+  </entry>
+  
+</feed>

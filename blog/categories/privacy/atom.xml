@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Privacy, | Coding 2 Learn]]></title>
+  <link href="http://coding2learn.org/blog/categories/privacy/atom.xml" rel="self"/>
+  <link href="http://coding2learn.org/"/>
+  <updated>2014-10-06T21:15:54+01:00</updated>
+  <id>http://coding2learn.org/</id>
+  <author>
+    <name><![CDATA[Marc Scott]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[How We Were Trained to Lower the Drawbridge]]></title>
+    <link href="http://coding2learn.org/blog/2013/09/08/how-we-were-trained-to-discard-our-tinfoil-hats/"/>
+    <updated>2013-09-08T09:28:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/09/08/how-we-were-trained-to-discard-our-tinfoil-hats</id>
+    <content type="html"><![CDATA[<p>A few years ago, the parody news network <a href="http://www.theonion.com">The Onion</a> released a video claiming that <a href="http://www.theonion.com/video/cias-facebook-program-dramatically-cut-agencys-cos,19753/">Facebook was a massive CIA surveillance project</a>. It was funny at the time. It&rsquo;s not so funny any more.</p>
+
+<p>Perhaps naively, I believe that Facebook, Google and the other tech giants <em>reluctantly</em> cooperate with the NSA. I believe that they comply with FISA requests because <em>they have to</em> and that they have remained tight-lipped about their cooperation because if they don&rsquo;t then whistleblowers could expect the same fair, just and proportionate treatment as has been meted out to Chelsea Manning and Edward Snowden. These corporations exist, after all, to make money and handing over vast swathes of user data to spy agencies just isn&rsquo;t in their financial interests.</p>
+
+<p>I feel however, that the tech giants have accomplished something far more insidious, and in many ways more detrimental to our privacy than is claimed in the video. They&rsquo;ve trained us to devalue privacy.</p>
+
+<p>There&rsquo;s an old saying that actually used to mean something.</p>
+
+<blockquote><p>An Englishman&rsquo;s home is his castle.</p></blockquote>
+
+<p>In the UK at least, it used to be the case that we valued our privacy. What went on between the four walls of our homes was our business and nobody else&rsquo;s. There were only three people in your life you would ever share your private lives with: your doctor, your priest and your spouse &ndash; in that order.</p>
+
+<p>Then along came the Internet. At first it was a place only a select few could publish. You had to have the technical ability to setup a webserver and write in HTML, and the World Wide Web was a curious place filled with niche websites created by geeks, academics and hackers. But it didn&rsquo;t stay like that for long. Facebook, Wordpress, Twitter, Google+ all came along and made it easy to share everything.</p>
+
+<p>We&rsquo;ve been trained to lower the drawbridge, lift the portcullis and let the world into our castles. Social networks reward us every time we publicise our lives, and we eat it up. This is most startlingly apparent amongst Generation Y, for whom sharing their lives with the world is so natural and ingrained, they almost see it as a basic human right. They consider privacy as something archaic and quaint, no longer relevant to the world we live in. They like it when they Google their own name and see images of themselves on the front page. They compete to gain followers on Tumblr, friends on Facebook and mentions on Twitter.</p>
+
+<p>We don&rsquo;t yet know what full the consequences of the sharing culture will be. When today&rsquo;s fifteen year-old students attempt to stand for Parliament in twenty years time, and the front pages of the red-tops are plastered with embarrassing Snapchat selfies, will we look at them and decide that they are not fit to represent us in Government, or will we just shrug and acknowledge that &lsquo;everyone used to do that&rsquo;?</p>
+
+<p>We can see one consequence of our <em>training</em> by the social networks here and now though &ndash; apathy. When Snowden&rsquo;s revelations first hit the Guardian&rsquo;s front page almost nobody cared. Hacker News was filled with NSA stories, but you&rsquo;d expect that from a community of technophiles. The BBC seemed to include Snowden stories as an after thought though, and even then, they focused on the human element of where he was and what he was doing, rather than the surveillance programs he had exposed. Glen Greenwald promised there would be more to come, and he didn&rsquo;t disappoint. But the latest revelation, that the NSA and GCHQ consider most of the widely used encryption technologies as a mere hindrance to their dragnet data gathering, has caused barely a ripple in the public consciousness.</p>
+
+<p>Why are we not out on the streets protesting these flagrant invasions of our privacy? Why are we not holding our parliamentary representatives to account, and demanding the end to mass surveillance of innocent citizens? Why are we not doing something&hellip; anything?</p>
+
+<p>Generation W didn&rsquo;t think about privacy, they just had it. Amongst Generation X there are precious few of us who care. Most of Generation Y consider privacy a barrier to their lives. It&rsquo;s Generation Z where the only hope lies.</p>
+
+<p>As a teacher I grow tired of the government and media constantly passing the buck and demanding that all societal ills need to be cured in schools. Teenage pregnancy rates too high? Teachers can fix that. Young adults can&rsquo;t manage their finances? Teachers can fix that. Too much apathy at the polling booth? Teachers can fix that. Government, the media and parents constantly abdicate responsibility and throw more into the curriculum in an attempt to fix society. When it comes to teaching about online privacy however, I don&rsquo;t see who can help Generation Z other than the teachers. The media, the Government and the corporations have no vested interest in a generation that considers privacy important. As for parents, they&rsquo;re already setting up Facebook accounts for their babies so that we can track their offspring&rsquo;s progress from cradle to grave.</p>
+
+<p>I&rsquo;ll start. I&rsquo;m currently working on a scheme of work about cryptography. There&rsquo;ll be plenty of Computer Science concepts in there, but I also intend for students to understand the importance of strong cryptography from a societal perspective rather than just a technological perspective. My hope is that it will make them think a little when using digital communication technologies, about exactly who has access to the content they send. I&rsquo;ll publish it here when I&rsquo;m done. If you would like to join me in this campaign, then please feel free to share links to resources in the comments section, or on Twitter, and I will endeavour to curate and publish what you send.</p>
+]]></content>
+  </entry>
+  
+</feed>

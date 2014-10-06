@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Coding 2 Learn]]></title>
+  <link href="http://coding2learn.org/atom.xml" rel="self"/>
+  <link href="http://coding2learn.org/"/>
+  <updated>2014-10-06T21:15:54+01:00</updated>
+  <id>http://coding2learn.org/</id>
+  <author>
+    <name><![CDATA[Marc Scott]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[One Year On]]></title>
+    <link href="http://coding2learn.org/blog/2014/08/08/one-year-on/"/>
+    <updated>2014-08-08T16:20:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2014/08/08/one-year-on</id>
+    <content type="html"><![CDATA[<p>About a year ago I wrote a post called <a href="http://coding2learn.org/blog/2013/07/29/kids-cant-use-computers/">Kids can’t use computers… and this is why it should worry you.</a></p>
+
+<p>In the post, I expressed my opinion that the concept of children being digital natives was a misnomer, that computer literacy is on a decline thanks to the ever increasing sophistication of our devices and software, and that we need to refocus our efforts as educators and parents to ensure that kids <em>can</em> use computers.</p>
+
+<p>I thought there was nothing much more to say on the issue; my opinion had been stated and I’d put forward what I thought the solutions were to the problem. I had no intention of writing a followup post.</p>
+
+<p>Two things occured recently that changed my mind. The first was my involvement with the <a href="https://youngrewiredstate.org/festival-of-code">Young Rewired State Festival of Code</a>. The second was the release of <a href="http://stakeholders.ofcom.org.uk/market-data-research/market-data/communications-market-reports/cmr14/uk/">Ofcom’s Communication Market Report 2014</a></p>
+
+<h2>Ofcom report</h2>
+
+<p>The Ofcom report has been widely publicised in the media under titles such as <a href="http://blogs.wsj.com/digits/2014/08/07/tech-is-childs-play-unless-youre-an-adult/">Tech is child’s play, unless you are an adult</a> and <a href="http://www.theguardian.com/technology/2014/aug/07/ofcom-children-digital-technology-better-than-adults">Ofcom: six-year-olds understand digital technology better than adults</a> once again propagating the myth that preteens and teens are digital natives and those of us over thirty are clueless when it comes to technology.</p>
+
+<p>Let’s make something clear, the Ofcom report focuses on the UK population&rsquo;s use of digital media, and is not a report on computer literacy. An example question from the survey that Ofcom commissioned specifically mentioned the app &ndash; Snapchat. The interviewers asked people which statement best described their knowledge of Snapchat.</p>
+
+<ul>
+<li>I know a lot about it and I have already used it.</li>
+<li>I know a lot about it, but haven’t used it.</li>
+<li>I know a bit about it.</li>
+<li>I’ve heard of it but don’t know much about it.</li>
+<li>I’ve never heard of it.</li>
+</ul>
+
+
+<p>Unsurprisingly 47% of adults had never heard of Snapchat. I fall into the “I know a lot about it, but haven’t used it” category. For instance, I know Snapchat is a messaging application that allows users to send each other images and video that are hidden after a few seconds. I know that Facebook and Google have both tried to acquire Snapchat for billions of dollars. I know that Snapchat has faced controversy over local storage of photos on some devices, its compliance with Government agencies over photos stored on its servers and that it had its database of user details hacked. I know all this because I read Hacker News, and if I didn’t then I’d be in the “I’ve never hear of it” category.</p>
+
+<p>Analysing the digital divide between adults and juveniles depending on whether or not they have used or heard of Snapchat is ridiculous. Snapchat is aimed at a youthful demographic that use smartphones, not at people in their mid forties. Over many years I have managed to whittle my friendship group down to about half a dozen people, and if I were to send any of them a Snapchat, they’d think I was just being a bit weird and very creepy.</p>
+
+<p>Using an individual&rsquo;s knowledge of Snapchat to judge digital literacy, is akin to judging an individuals ability to compose and perform music based on whether or not they have heard of, or listened to, One Direction. But this hasn’t stopped the popular press jumping all over a few statistics and proudly announcing that our 6 year-olds are more digitally literate than their parents.</p>
+
+<p>There are plenty of other skewed statistics that the press have sank their claws into. For instance the “Digital Confidence Scores” show that kids aged 14-15 are at the pinnacle of digital confidence. In reality their digital confidence is only in relation to the products and services they use. My six year-old son is very confident with the iPad I let him use. He’s a whiz at Minecraft and his knowledge of the game mechanics far exceeds mine. He’s a pretty dab hand at Angry Birds, iMessage and using YouTube as well. He would score quite highly when it comes to digital confidence, and when I asked him whether “new technology confuses him” he proudly said “No”, after I had clarified what “new technology” means.</p>
+
+<p><img src="http://consumers.ofcom.org.uk/files/2014/1386071/TQ-v5.jpg" alt="graph" /></p>
+
+<p>New technology confuses me all the time. For instance, every time a new JavaScript library pops into existence, I feel an overwhelming dread of being overtaken by technology, and a slow descent of my digital skills into obsolescence. When Apple announced the Swift programming language the weight of yet another set of syntactic rules to battle with pressed down heavily on my shoulders. Every time I decide to sit down and learn a functional programming language I break out in a sweat and have to steady my nerves with a couple of shots of Scotch. I recently spent a couple of days playing with Google Glass, and was exceptionally confused, as I really couldn’t understand what the fucking point of it was, or why anyone would want to pay over a grand for such an ugly and limited gadget.</p>
+
+<p><img src="http://coding2learn.org/post_images/OneYearOn/glass.jpg" alt="Glass" /></p>
+
+<p>My son scores highly on the digital confidence scale as tested by the Ofcom interviews and questionnaires, yet he’s the last person I’d advise you speak to if you needed help with formatting a Word document, debugging an Excel formula or setting up an Outlook appointment; all of which many adults find exceedingly easy.</p>
+
+<p>I’ve denigrated kids enough now, so I’d like to spend some time looking at the other end of the spectrum, and explain why I am still filled with hope for the future of digital literacy amongst the youth of this country.</p>
+
+<h2>YRS</h2>
+
+<p>The <a href="https://youngrewiredstate.org/festival-of-code">YRS Festival of Code</a> is in essence a week-long hackathon for teenagers based at centres all over the country, culminating in a weekend get together of all the participants for a competition to judge who created the best apps. If you&rsquo;re a teenager and reading this, go sign up for next year&rsquo;s event now. Even if you&rsquo;ve no coding experience at all, you&rsquo;ll get something out of it. If you&rsquo;re a developer then you should go and sign up as a mentor or centre lead.</p>
+
+<p>This year I mentored a group at the <a href="http://www.comparethemarket.com">CompareTheMarket</a> offices in Peterborough, along with <a href="https://twitter.com/axshaw">Alex Shaw</a> who heads up the Labs division at the company. We both gave up our time, as volunteers, but in reality we both got far more out of the experience than we put in
+.</p>
+
+<p><img src="https://pbs.twimg.com/media/Bttocr5IcAENlKy.jpg" alt="#ctmers" /></p>
+
+<p>For five days we helped eleven kids hack together a couple of apps using Open Data, marveling at their drive, enthusiasm and ingenuity. We then spent three days in Plymouth and were quite frankly blown away by the quality and originality of the apps that had been created by the teenagers from across the country.</p>
+
+<p>The Festival of Code has been running a few years now, but the number of children attending keep doubling each year, as more and more kids catch the coding bug. There were fifteen year-olds at the event who already dwarf me in terms of their skills and knowledge. We saw kids presenting apps that ran on Android, iOS and the web that demonstrated a youthful ingenuity and ambition that was simultaneously heart warming and terrifying. Check out some of their apps &ndash; <a href="http://milesperpound.idealcoder.co.uk/#/">here</a>, <a href="http://unilo.herokuapp.com/users/sign_in">here</a> and <a href="http://be-paranoid.co.uk">here</a>.</p>
+
+<p>The kids I met at the Festival of Code are the future of Computing in this county, and the fact that their numbers are growing year on year, assures me that it won&rsquo;t be long before kids are back in their rightful place as masters of technology, and putting us oldies to shame once more.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computer Games Are a Waste of Time]]></title>
+    <link href="http://coding2learn.org/blog/2014/05/18/computer-games-are-a-waste-of-time/"/>
+    <updated>2014-05-18T11:20:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2014/05/18/computer-games-are-a-waste-of-time</id>
+    <content type="html"><![CDATA[<p>When I was a kid I played a lot of computer games. I once played <em>Betrayal at Krondor</em> for so long that I started hallucinating from sleep deprivation. When I was at Uni I chose to mow-down humanoid warthogs in <em>Duke Nukem</em> rather than learn metabolic pathways for amino acid synthesis and failed an important exam.</p>
+
+<blockquote><p>When I was a child, I spoke as a child, I understood as a child, I thought as a child: but when I became a man, I put away childish things.</p></blockquote>
+
+<p>I gave up gaming in the traditional sense, years ago. I now recognise the stupidity of playing a computer game for hours on end, hoping to make the value of some variable creep upwards. Thank goodness I don&rsquo;t do that anymore. These days I&rsquo;m far more sophisticated.</p>
+
+<h2>The Hacker News Game.</h2>
+
+<p>I&rsquo;ve been playing The Hacker News game for just under a year. When I first started playing I was killed fairly quickly, what&rsquo;s known in HN circles as being <em>Hellbanned</em>. It&rsquo;s a neat little mechanic where by the NPCs introduce large amounts of lag into the game and hide your character from the other players. I&rsquo;m still not sure what got me Hellbanned, so I just started again.</p>
+
+<p>My second attempt at playing has been a little more successful. I created a new character called &lsquo;coding2learn&rsquo;, who is a kind of geeky computer science teacher. Since playing this new character I have gained nearly 1000xp, known as Karma in the game. The concept of The Hacker News Game is to go on a search for websites that would be of interest to Programmers and Technologists. When you find a website, you submit it to the community, who can then upvote your submission and reward you with xp.</p>
+
+<p>Like most MMORPGs, The Hacker News game allows you to interact with other players. To do this you use comments. Comments can also be upvoted, for additional xp, and if you are a high enough level you can even downvote comments. You&rsquo;re best off only commenting on things you are quite knowledgeable on. If you want to gain lots of upvotes, the more pedantic you are the better.</p>
+
+<p>The Hacker News game is web based, although there is talk of a mobile app or optimisation coming soon.</p>
+
+<h2>The Twitter Game</h2>
+
+<p>I used to play The Facebook game, but I stopped when they kept changing all the game mechanics without notification. Besides, I interact with my friends and family enough irl. Instead I thought I&rsquo;d give The Twitter Game a chance.</p>
+
+<p>The basic idea of The Twitter Game is to gain followers. Followers are other players who might decide to join your clan, so that they can receive your pronouncements. There is no limit to the number of clans that a player can join, although it is often deemed a measure of success if you keep the ratio of people in your clan, to clans you are a member of, as high as possible.</p>
+
+<p>You gain followers by making pronouncements. Humorous pronouncements are often best, but you can also make informative and controversial pronouncements in an attempt to gain followers. One of the quirky mechanics of The Twitter Game is that you have to make pronouncements in less than 140 characters. Sometime your pronouncements are spread further by your followers. This enables you to reach a wider audience and therefore increase your clan size.</p>
+
+<p>In The Twitter Game I play more or less the same character as in The Hacker News Game. There are a few differences though. &lsquo;coding2learn&rsquo; in The Twitter Game tries to use humour a little more and is a little less arrogant (although not much).</p>
+
+<p>I&rsquo;ve had moderate success in The Twitter Game, gaining over 1000 followers. I don&rsquo;t play it enough really to become an elite player.</p>
+
+<p>The Twitter Game is web based, although there are apps for mobile that are quite good.</p>
+
+<h2>The Blogger Game</h2>
+
+<p>The Blogger Game is my favorite game of all. If you&rsquo;re reading this you&rsquo;re playing The Blogger Game right now, and so I should really say ‘thank you’ for the additional xp.</p>
+
+<p>In the Blogger Game you write what are called &lsquo;posts&rsquo;. It&rsquo;s a good idea to write posts that, like in The Twitter Game, are either funny or informative. There&rsquo;s no character limit in The Blogger Game though, and you can write really long posts if you want, although be aware that sometimes your post might be so long that people will comment TL;DR (too long; didn&rsquo;t read).</p>
+
+<p>Success in The Blogger Game is determined by your scores in something called Google Analytics. Google Analytics is like a personal high-score table, that can tell you how well each of your posts has done and how well your blog is doing in general. There are loads of stats to play around with, such as first time visitors, bounce rate and time on page.</p>
+
+<p>If you want to play The Blogger Game it&rsquo;s a good idea to decide on a topic to &lsquo;blog&rsquo; about and stick with it. Regular posting is quite important, and something I struggle with. To get really high scores you need to be &lsquo;blogging&rsquo; about once a week.</p>
+
+<p>What I like about The Blogger Game, is its crossover with The Hacker News Game and The Twitter Game. Success in any of them can lead to success in the other two, even though they&rsquo;re created by completely different studios.</p>
+
+<p>The Blogger Game is available on the web or as a stand alone app on mobile, PC, Mac and Linux. web based, although there are apps for mobile that are quite good.</p>
+
+<hr />
+
+<p>So that’s my gaming life these days. I’m sure we can all agree that it is far preferable and productive than the waste of time that is CoD or WoW</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Please Stop Sending Me Your Shitty Word Documents]]></title>
+    <link href="http://coding2learn.org/blog/2014/04/14/please-stop-sending-me-your-shitty-word-documents/"/>
+    <updated>2014-04-14T16:07:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2014/04/14/please-stop-sending-me-your-shitty-word-documents</id>
+    <content type="html"><![CDATA[<p><em>Throughout this rant I use the second-person personal pronoun (you) quite a lot. This does not necessarily mean I am speaking to &lsquo;You&rsquo; the reader, but rather some other &lsquo;You&rsquo; who will probably never read this anyway.</em></p>
+
+<p>When Microsoft announced Office for iPad I shed a small tear. Excel is an incredibly useful application, without which my managers couldn&rsquo;t inundate me with graphs, statistics and indecipherable Look-ups that reference hidden and protected sheets. PowerPoint allows literally anyone (regardless of their public speaking skills, understanding of image aspect ratios, or ability to use less than 15 different fonts on a single slide) to prepare presentations for their audience. These apps becoming available on iOS did not worry me. What upset me however, was the fact that all of a sudden, swathes of iPad users will now have the ability to view, edit and most worryingly of all &ndash; create Microsoft Word documents.</p>
+
+<p>Here&rsquo;s what I have installed on my Mac:</p>
+
+<ul>
+<li>Alfred &ndash; searching for anything</li>
+<li>Python &ndash; coding anything</li>
+<li>VLC &ndash; watching anything</li>
+<li>FireFox &ndash; browsing anything</li>
+<li>Homebrew &ndash; installing anything</li>
+<li>Emacs &ndash; anything</li>
+</ul>
+
+
+<p>You&rsquo;ll notice that Word is not on the list. I have nothing against people who use Word, I am just not one of them. There was a time when if I wanted to put text on a screen, it was my go to software, and I thought I was a pretty 1337 hacker because I knew how to do mail merges. I&rsquo;m not that guy anymore. I don&rsquo;t tell you what software to install on your computer, and I don&rsquo;t assume you have the same software installed as me. For this reason I am careful to use non-proprietary file types when sending documents via email. I expect the same courtesy from you, and here&rsquo;s why&hellip;</p>
+
+<h3>I don&rsquo;t have Word installed</h3>
+
+<p>When you send me a Word document, you are making some pretty major assumptions, and as Samuel L. Jackson once said in the outstandingly amazing film <em>The Long Kiss Goodnight</em></p>
+
+<blockquote><p>&ldquo;When you make an assumption, you make an ass out of &lsquo;u&rsquo; and &lsquo;mption&rsquo;.&rdquo;</p></blockquote>
+
+<p>Firstly you assume that I have Word or some clone of it installed. I know you think the words &lsquo;Computer&rsquo;, &lsquo;Microsoft&rsquo;, &lsquo;Windows&rsquo; and &lsquo;Office&rsquo; are synonymous, but they&rsquo;re not and there are plenty of people in the world who use *nix operating systems.  By sending me a .docx file you&rsquo;re forcing me to find a work around, so that I can use your document. What are my options? Well I could install an Office clone like Libre or Pages. I could use an online service like Google Docs or Zoho. I could even attempt to get Emacs to read the data and make a go of presenting it to me in some recognisable format. Do you see what you&rsquo;ve done? You&rsquo;ve made more work for me. You&rsquo;ve sent me a locked box and asked me to either pay to get a key cut or smash it open with a crowbar.</p>
+
+<h3>Plain text should be plain</h3>
+
+<p>What happens when I finally manage to open your document? Well 90% of the time, all it contains is text. That&rsquo;s it. Text. Strings of characters. So why the hell did you send it as a Word document to begin with? Why not just write the text directly into the body of the email? If it&rsquo;s that important for you to write in Word, then save it as a .txt file. There&rsquo;s not a computer on the planet that can&rsquo;t read plain-text. (Well, that&rsquo;s not technically true, as I&rsquo;m pretty sure my Microwave contains a computer, but that&rsquo;s besides the point.)</p>
+
+<h3>Are you really that good a designer?</h3>
+
+<p>The only possible reason I can imagine that you had to send me the document in Word format is because you are the world&rsquo;s finest graphic designer/type-setter. Maybe your choice of fonts, margins, kerning and paragraph indentation are so awe-inspiring, that the very act of viewing the document will have me gouging my eyes out with a spoon, knowing that the gift of sight is no longer of any consequence as I shall never again behold a thing of such beauty. Of course the small flaw in your plan is that I don&rsquo;t have the Lucida handwriting font installed on my system, and Preview struggles to display Word-Art clearly, so all your efforts are probably in vain.</p>
+
+<h3>Tables grrrr!</h3>
+
+<p>Sometime you send me the Word document as a container for other joys, such as tables. I understand that a .csv is ugly to behold, but computers don&rsquo;t tend to worry about aesthetics too much, so they really are preferable. There are prettier tables available if you&rsquo;re into that kind of thing. HTML tables are great, easy to parse and render, but Microsoft obviously think they&rsquo;re the devil&rsquo;s work and so prefer to use their own method of tabulating data. I don&rsquo;t know how Microsoft has chosen to represent tables in their .docx files, but I do know that if Linus, Stallman and ESR got together and hacked away for a decade or so, they wouldn&rsquo;t be able to create a program that could render a sodding table created in Word, correctly.</p>
+
+<h3>What&rsquo;s with the crud</h3>
+
+<p>Sometimes the documents you send me contain other <em>interesting</em> elements. You feel the need to augment your text with such things as; little animated gifs of a stick-man who is frustrated with his computer, borders of coloured apples and 3D Word-Art. Now I know you think that such embellishments will bring a smile to my face and ease my reading of your text, but I&rsquo;m sorry to inform you that you&rsquo;re wrong. Very wrong. Criminally wrong. You see, with out Word installed, I won&rsquo;t be able to view these quirky little additions to you plain text. Your efforts were in vain. I could additionally argue that if your text was too boring, without such witty little quirks, then you might like to consider whether the <em>content</em> is worth reading in the first place.</p>
+
+<h3>A heartfelt plea</h3>
+
+<p>So please&hellip; pretty please&hellip; please with bells on top, borders of apples and the word <em>PLEASE</em> written in bright blue Word-Art; think next time you want to send a Word document by email or put one on your website, think about your recipient. Could you use the body of the email or a page on the site? Perhaps you could save the file as a .txt, .rtf or PDF. Just spare a thought for those of us that <em>choose</em> not to use Microsoft Word, and respect our right not to do so.</p>
+
+<p>Oh&hellip; and learn to write in sodding Markdown.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Installing Pygame on Mac OS X With Python 3]]></title>
+    <link href="http://coding2learn.org/blog/2014/03/11/installing-pygame-on-mac-os-x-with-python-3/"/>
+    <updated>2014-03-11T16:22:00+00:00</updated>
+    <id>http://coding2learn.org/blog/2014/03/11/installing-pygame-on-mac-os-x-with-python-3</id>
+    <content type="html"><![CDATA[<p>This has been a bugbear of mine for sometime now. I like using Python 3.x. I like teaching kids how to use Pygame. I use a Mac.
+Trying to get all three to play nicely with each other has been impossible for me up to now.</p>
+
+<p>I&rsquo;ve trawled through web pages and blog posts that recommend all manner of ways in which you can install Pygame on a Mac for Python 3, I&rsquo;ve tried numerous solutions on StackOverflow, and I&rsquo;ve even tried angrily shouting at my computer and threatening to throw it out of my classroom window. None of them worked.</p>
+
+<p>Today I finally nailed it, and I have Pygame running. Here&#8217; what I did.</p>
+
+<pre><code>1) Install XCode and command line tools
+2) Install Homebrew (ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)")
+3) brew install Python3
+4) brew install git
+5) brew install sdl sdl_image sdl_mixer sdl_ttf portmidi
+6) Install XQuartz - http://xquartz.macosforge.org
+7) brew tap homebrew/headonly
+8) brew install --HEAD smpeg
+9) brew install python (needed to install mercurial)
+10) brew install mercurial
+11) pip3 install hg+http://bitbucket.org/pygame/pygame
+</code></pre>
+
+<p>And that&rsquo;s it. If you have any problems yourself or a better way then please let me know in the comments.</p>
+
+<p><del><em>note: the smpeg install is failing for me at the moment, so I&rsquo;ll look into this a little more. Pygame seems to be working without it though.</em></del></p>
+
+<p><em>update</em></p>
+
+<p>I had some <em>brew doctor</em> issues (around 20!), which might have been due to me trying to install Pygame from source earlier and therefore manually installing all the dependencies, which then conflicted with homebrew.</p>
+
+<p>I deleted everything brew doctor suggested and overwrote all links as suggested. The <code>brew install --HEAD smpeg</code> suddenly worked (although that might have been because I was no longer behind a proxy). I then did a <code>brew unlink jpeg</code> and <code>brew link --overwrite jpeg</code>.</p>
+
+<p>Everything is working perfectly for now. (Crosses fingers, touches wood and searches for a black cat to cross his path.)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What Exactly Are We Teaching Anyway?]]></title>
+    <link href="http://coding2learn.org/blog/2014/02/12/what-exactly-are-we-teaching-anyway/"/>
+    <updated>2014-02-12T16:00:00+00:00</updated>
+    <id>http://coding2learn.org/blog/2014/02/12/what-exactly-are-we-teaching-anyway</id>
+    <content type="html"><![CDATA[<p>On Twitter, numerous education blogs and even on Hacker News, there have been more than a few debates of late regarding the education of students in Computer Science/Computing/Coding/IT. In the UK, in particular, the debate has been fueled by Lottie Dexter&rsquo;s &ldquo;Year of Code&#8217;; a government backed scheme to encourage everyone to learn a little more Computer Science/Computing/Coding/IT this year.</p>
+
+<p>The usual suspects have all weighed in on this debate.</p>
+
+<p>There are those that consider Computer Science and Computational Thinking the very purpose of a modern education. They argue that without the ability to fully comprehend the Halting problem, no child could ever tie their own shoelaces without entering some sort of bizarre shoelace-tying infinite loop.</p>
+
+<p>Then there are those that argue it is impossible for a student to understand any abstract Computer Science problem. In fact, children are incapable of writing code, finding an on switch, or even manage to sound out the words on a &ldquo;C&rdquo; is for &ldquo;Computer&rdquo; nursery school flash car. They make the case that we should give up now and all go back to making pretty pictures in Paint.</p>
+
+<p><img src="http://coding2learn.org/post_images/GettingShitDone/FlashCard.jpg" width="300" alt="C is for Computer" /></p>
+
+<p>The arguments seem, more often than not, to be focused on what name we give to the subject that we are teaching. In reality, of course, the name means very little. During a child&rsquo;s early years we teach them what we think they need to know and during the latter years we&rsquo;re subject to the whims of the exam boards and organisations such as Ofqual.</p>
+
+<p>It is for this reason that I propose a radical reform of the name given to Computer Science/Computing/Coding/ICT, that I will hope will clear things up once and for all, and prevent any future arguments, back biting and bullying. From this day forward I intend to teach students &ldquo;Getting Shit Done With A Computer&rdquo;.</p>
+
+<p>Getting shit done with a computer is at the end of the day, what I&rsquo;d like every kid to be able to do. Regardless of what you call my subject, I&rsquo;ll always teach students how to get shit done with a computer, as that&rsquo;s what I think they need to know.</p>
+
+<p>I like my students to be able to recognise when the cable has been removed from the Ethernet port, and understand the reason why they have no network connection. I like my students to understand the basics of a file system and how to navigate it. I like my students to be able to use a spreadsheet, operate a database and write up a project. I like my students to be able to choose the right tools for the right job (The right tool being emacs and the right job being <em>any</em> job, always.). I like my students to be able to knock together little scripts that will recursively grab files out of a nest of directories, or as one enterprising young fellow did the other day, write a script that replaces all your files with this picture of Chuck Norris.</p>
+
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chuck_Norris%2C_The_Delta_Force_1986.jpg/834px-Chuck_Norris%2C_The_Delta_Force_1986.jpg" width="400" alt="Chuck Norris is the Internet" /></p>
+
+<p>Along the way I&rsquo;ll teach them a little Boolean logic, some binary and maybe Big O notation. This isn&rsquo;t just high flung theory with no practical use though. I recognise that when you want to get <em>serious</em> shit done with a computer, these are important concepts to have at hand.</p>
+
+<p>When all is said and done, if we could just lose the pathetic tribal mentality that causes some of us to identify with the moniker Teacher of Computer Science, or Teacher of Computing, or Teacher of IT, the students would benefit in the end, and we could all just get some shit done using our computers.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[X Days of Christmas]]></title>
+    <link href="http://coding2learn.org/blog/2013/12/13/x-days-of-christmas/"/>
+    <updated>2013-12-13T08:39:00+00:00</updated>
+    <id>http://coding2learn.org/blog/2013/12/13/x-days-of-christmas</id>
+    <content type="html"><![CDATA[<p>Just a quick one from me today.</p>
+
+<p>I woke up this morning with a lesson idea in my head, that was also a Python script.</p>
+
+<p>I&rsquo;ve a few teacher followers, so I thought I&rsquo;d shove it up here for others to use if they want. You&rsquo;ll have to forgive my poor coding and poorer use of the English language.</p>
+
+<p>The challenge for the students is to create a program that will produce the lyrics for &lsquo;The X Days of Christmas&rsquo;.</p>
+
+<p>You can find my solution at the bottom of the post, and here&rsquo;s a few files &ndash; <a href="http://coding2learn.org/post_files/XDays/xdays.py">xdays.py</a>, <a href="http://coding2learn.org/post_files/XDays/nouns.txt">nouns.txt</a>, <a href="http://coding2learn.org/post_files/XDays/verbs.txt">verbs.txt</a></p>
+
+<p>The results can be quite amusing &ndash; my particular favorites have been &ldquo;20 kittens a bleeding&rdquo;, &ldquo;99 rats a computing&rdquo; and &ldquo;11 creators a mating&rdquo;</p>
+
+<p>I&rsquo;ve even had ones that make sense, like &ldquo;8 pies a baking&rdquo;.</p>
+
+<p>Here&rsquo;s an example final verse that I quite enjoyed.</p>
+
+<blockquote><p>On the 12th day of Christmas my true love sent to me:<br/>
+12 roads a developing<br/>
+11 faucets a mating<br/>
+10 planes a combing<br/>
+9 worms a solving<br/>
+8 tents a liing<br/>
+7 kittens a slaying<br/>
+6 tubs a handing<br/>
+5 passengers a scattering<br/>
+4 bats a utilizing<br/>
+3 mornings a promoting<br/>
+2 pollutions a foreseing<br/>
+and a partridge in a pear tree</p></blockquote>
+
+<pre><code>from random import randrange
+nouns=[]
+verbs=[]
+parings=[]
+
+days = int(input('How many days of Christmas are there?'))+1
+
+with open('nouns.txt','r') as file1:
+    for line in file1:
+        noun = line.rstrip()
+        if noun[-1] == 's':
+            nouns.append(noun)
+        elif noun[-1] == 'y':
+            if noun[-2] == 'e':
+                noun=noun[0:-2]+'ies'
+            else:
+                noun=noun[0:-1]+'ies'
+        else:
+            noun=noun+'s'
+        nouns.append(noun)
+
+with open('verbs.txt','r') as file2:
+    for line in file2:
+        verb = line.rstrip()
+        if verb[-1]=='e':
+            verb = verb[0:-1]+'ing'
+        else:
+            verb = verb+'ing'
+        verbs.append(verb)
+
+for i in range(days):
+    paring = nouns.pop(randrange(len(nouns)))+' a '+verbs.pop(randrange(len(verbs)))
+    parings.append(paring)
+
+
+for day in range(1,days):
+    if str(day)[-1] == 1 or day ==1:
+        ending = 'st'
+    elif str(day)[-1] == 2 or day ==2:
+        ending = 'nd'
+    elif str(day)[-1] == 3 or day ==3:
+        ending = 'rd'
+    else:
+        ending = 'th' 
+    print('On the',str(day)+ending,'day of Christmas my true love sent to me:')
+    for count in range(day,1,-1):
+        print(count,parings[count])
+    if day == 1:
+        print('a partridge in a pear tree')
+    else:
+        print('and a partridge in a pear tree', )
+    print('')
+</code></pre>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How I Rediscovered Experimental Learning and Why It Doesn't Matter]]></title>
+    <link href="http://coding2learn.org/blog/2013/11/25/how-i-rediscovered-experimental-learning/"/>
+    <updated>2013-11-25T18:30:00+00:00</updated>
+    <id>http://coding2learn.org/blog/2013/11/25/how-i-rediscovered-experimental-learning</id>
+    <content type="html"><![CDATA[<p>A few months back I received this tweet.</p>
+
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/Coding2Learn">@coding2learn</a> We loved your recent article about kids &amp; computers &amp; want to send you some Bits. Can you DM your email address?</p>&mdash; littleBits (@littleBits) <a href="https://twitter.com/littleBits/statuses/367055818094837760">August 12, 2013</a></blockquote>
+
+
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>I was a little surprised, but DM&#8217;ed them back with my address and then promptly forgot all about it. (I don&rsquo;t know what the past tense of the abbreviation of Direct Message is, so please feel free to correct me in the comments below.)</p>
+
+<p>About a month later I was at home when the doorbell rang and a delivery driver handed over a parcel for me. I opened it up and was surprised to find three <a href="http://littlebits.cc">littleBits</a> kits.</p>
+
+<p>Now I&rsquo;d just (literally that week) started teaching a new subject called Systems &amp; Control, that has a heavy element of electronics involved, so I packed the kits into my car and took them to school the following day.</p>
+
+<p>For those that don&rsquo;t know, littleBits make electronics kits consisting of snap together magnetic modules. You can use the kits to make a range of electronic circuits &ndash; driving motors and buzzers and blinking LEDs.</p>
+
+<p><img src="http://d37nm08lqbnpni.cloudfront.net/assets/home-page/deluxe_kit_bits-3ec7587394db3c6f343ce3d207fb8134.png" alt="littleBits" /></p>
+
+<p>My colleagues and I stood around the opened boxes, picking up the little plastic modules, snapping them together and building an array of little projects. After fifteen minutes or so we all came to the same conclusion. The kits were clever, easy to use, accessible for students but completely impractical for a classroom of thirty secondary school students.</p>
+
+<p>The kits were placed back in their boxes, and left in a cupboard, forgotten about.</p>
+
+<p>Then, due to personal circumstances, my six year old son, Jimi, had to be home schooled by his grandmother. I remembered the kits in my classroom cupboard and took them over to her, suggesting she might like to put together some of the kits with him. This she did, dutifully following the instructions and assembling the kits. She reported back that they had built the circuits, and then the kits came home, to be once again forgotten about, this time in a drawer in Jimi&rsquo;s bedroom.</p>
+
+<p>On Saturday I was standing in the kitchen, enjoying a steaming cup of coffee and my morning Nicotine Replacement Therapy Lozenge, while perusing Hacker News. Jimi came bounding in.</p>
+
+<p>&ldquo;Dad, come and look at the machine I&rsquo;ve made.&rdquo;</p>
+
+<p>I&rsquo;ve been caught out by this one before. The &ldquo;machine&rdquo; is normally a cardboard box with a cushion inside it and a pencil stabbed through the side. Sometimes it&rsquo;s supposed to be a rocket, sometimes a train or sometimes an Angry Birds catapult.</p>
+
+<p>&ldquo;Why don&rsquo;t you bring it through here?&rdquo; I asked, reluctant to leave my coffee and laptop.</p>
+
+<p>&ldquo;It&rsquo;s a bit delicate,&rdquo; he said &ldquo;but okay.&rdquo;</p>
+
+<p>He came in a few minutes later, but I wasn&rsquo;t really paying much attention as he began messing around on the kitchen floor.</p>
+
+<p>&ldquo;Look Dad.&rdquo;</p>
+
+<p>I looked over and was stunned by what I saw. Jimi had pulled out the littleBits kits and had assembled a monstrous creation.</p>
+
+<p>I got down on the floor with him and asked him what he had made. He explained the contraption. How you had to turn this thing and push that thing and hold down this part and then this part lights up and this thing makes a noise. He didn&rsquo;t use a single punctuation mark in his excitable and breathless sentence.</p>
+
+<p>We moved his machine onto the kitchen table and his big sister suddenly made an appearance. Within minutes the two of them were busily clicking together bits of electronics, having fun, amazing themselves, and more importantly learning.</p>
+
+<p><img src="http://coding2learn.org/post_images/littleBits/Jimi.jpg" alt="Jimi and his Sister" />
+<img src="http://coding2learn.org/post_images/littleBits/Concentrating.jpg" alt="Concentrating" />
+<img src="http://coding2learn.org/post_images/littleBits/Lantern.jpg" alt="Lantern" /></p>
+
+<p>Jimi figured out that a push-to-make switch needs to come between a power supply and an LED to have an effect. He learned what a variable resistor does in series with a motor. He learned what a piezoelectric sensor does when combined with a buzzer. Obviously he learned none of the terminology, but that wasn&rsquo;t important.</p>
+
+<p>I&rsquo;d dismissed the littleBits kits because I have preconceived ideas of what education should be. These misconceptions have been honed by years of operating in a pressured school environment, where results rule above all else, and where you&rsquo;re required to demonstrate progress in every lesson, term, year and key stage. Watching my son experiment, succeed and learn, all while having fun was sobering.</p>
+
+<p>Unfortunately the lesson I learned is one that I will struggle to apply in my professional life. There just isn&rsquo;t the time available to allow students to experiment at their own pace. I would love nothing more than to give the students the tools they require, be that in computing or in electronics, and allow them to explore the possibilities available to them, but alas I operate in a system where data rules and demonstrable progress is required.</p>
+
+<p>There are areas in which I can allow students to experiment. Thanks to a particularly keen and talented student, I have become involved with a project called <a href="http://thinkspace.co.uk/">THINKSPACE</a>. This involves giving students a time and place that they can come and begin to develop apps. They work on what they want to, at a pace that suits them and where I am a facilitator and troubleshooter as opposed to a driver of progress. I can spare only an hour a week to THINKSPACE. It deserves two or three hours a day.</p>
+
+<p>I admire littleBits, THINKSPACE and similar initiatives. I think they&rsquo;re admirable endeavors with the right mindset when it comes to education. I just wish that policy makers within the education system shared their ideals and attitude towards learning, so that we could give all our students the opportunity to truly experiment in the classroom, to succeed and to fail, to have fun and most importantly to teach themselves to learn.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computing Is Much More Than Coding?]]></title>
+    <link href="http://coding2learn.org/blog/2013/10/10/computing-is-much-more-than-coding/"/>
+    <updated>2013-10-10T22:09:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/10/10/computing-is-much-more-than-coding</id>
+    <content type="html"><![CDATA[<p>Trying to justify that every student in the country should learn computing is quite a tricky endevour, and it shouldn&rsquo;t be. We&rsquo;re all users of technology after all, and benefit from the advantages and disadvantages of being so. We should all have a basic understanding of computers, networks, encryption and software. Knowledge of technology can help keep us safe, make us money and help our productivity. Why should every student in the country not be given access to such knowledge? After all, we don&rsquo;t balk at the fact that every student in the country should study Shakespeare, trigonometry, the causes of The Second World War or how to throw a rugby ball. I probably use trigonometry about once a month, I haven&rsquo;t thrown a rugby ball in decades but I use a computer every day.</p>
+
+<p>I studied French for five years at secondary school. I hated it. There&rsquo;s nothing worse than sitting at a parents&#8217; evening and listening to your mother speak fluent French with your teacher, and knowing, despite not understanding a word they are saying, that he&rsquo;s detailing your every shortfall in the subject. Do I resent the fact that I was made to study French? No. Of course not. I have the utmost admiration for multi-linguists. I marvel at their ability and I know they perform an essential role in our society. Every student should study a foreign language, because a few of them will find they have a talent for it and go onto greater things. Did attempting to learn French benefit me? No. Not one bit, and that doesn&rsquo;t matter</p>
+
+<p>Other subjects have no need to justify their existence in schools. English, Foreign Languages, Maths and Science have the weight of centuries of educational history behind them. As does History. Computing is new. The bastard child of Maths and Electrical Engineering. It&rsquo;s a subject that&rsquo;s only been in existence for a few decades. Because of this it has struggled to gain a firm foothold in our schools, yet I would argue that it is a subject that has a far greater impact on our lives and the lives of our children than any of the others.</p>
+
+<p>There are quite enough reasons to make Computing a compulsory subject in schools. We don&rsquo;t need spurious excuses that confise the issue. What annoys me about many of the &ldquo;Computing Apologists&rdquo; is their overwhelming desire to insist that Computing has benefits outside of the sphere of technology. I&rsquo;m all for Computing in primary and secondary schools, because I think the ability to code is important and I feel that every student should have the <em>opportunity</em> to learn to program. If we teach a thousand students to code, then maybe we&rsquo;ll find a hundred that enjoy it, ten that excel at it and one that goes on to revolutionise our society.</p>
+
+<p>When many advocates of compulsory Computing education are asked why it is so important, they often hail &ldquo;Computational Thinking&rdquo; to be the panacea to all our woes. They state that even outside the field of programming, Computational Thinking is an important life skill. They argue that Computational Thinking can be applied to many problems in the real world and that every student should learn to tackle problems in a &ldquo;Computational way&rdquo;. I teach Computing, and to be honest I only have a vague idea of what Computational thinking is.</p>
+
+<p>I know how to teach programming. I know how to teach students to break down problems and tackle bite-sized chunks with different algorithms. I know how to get students to manipulate large data sets, and to make simplified models of real-world situations. I can teach students all of these things, once I&rsquo;ve taught them the basics of the programming language we are using, be it Scratch, Python, Javascript or whatever the flavour of the week is.</p>
+
+<p>The idea that Computational thinking is an essential life skill is nonsense.</p>
+
+<p>If I was to shuffle a pack of fifty-two playing cards and hand them to you, then asked you to sort them, you&rsquo;d do what any sensible person on the planet would do. You&rsquo;d sort them into suit order first, then into value order. Is this decomposition or just common sense? Did you require lessons in Computational thinking in order to achieve this task?</p>
+
+<p>My degree is in Biochemistry. I would never argue that Scientific thinking is crucial for everyone. It&rsquo;s useful, in certain situations, but not essential. When some Daily Mail reader argues that the presence of a minority group in our country is resulting in a broken society, I might apply the Scientific Method to analyse their evidence, find its flaws and then disprove their hypothesis. If they told me they&rsquo;d eaten a bacon sandwich, I&rsquo;d probably just believe them. My wife is an English teacher. When she reads a novel she drills down into the layers of meaning and the subtext of the book, to elucidate a truer understanding of the authors message. When she reads the menu in a local cafe, detailing the contents of their bacon sandwiches, she just takes it at face value.</p>
+
+<p>You can live a successful life without knowledge of the Scientific Method. You can live a successful life without knowledge of Literary Deconstruction. You can live a successful life without knowledge of Computational Thinking.</p>
+
+<p>If I ask you to build me a shed, do you pick up an armful of planks and repeatedly throw them into the air until a shed has been built? Of course not. Maybe you&rsquo;ll start by building a floor, then some walls and finally a roof. Is this decomposition? Are you &ldquo;Thinking Computationally&rdquo;? Maybe you&rsquo;re actually engaging in abstraction. After all, there&rsquo;s no such thing as a roof. A roof is just a series of planks of wood, joined together at an angle that is optimal for self-support and the shedding of rain water. Of course, there&rsquo;s no such thing as a plank of wood. That&rsquo;s just really bundles of xylem vessels, cut into regular geometric patterns. Of course, there&rsquo;s no such thing as a xylem vessel. They&rsquo;re really just arrangements of cells composed of cellulose and&hellip; well I&rsquo;m sure you get my point. We&rsquo;re all fairly familiar with abstraction. We just might not recognise it for what it is, and we certainly don&rsquo;t have to be taught Computational Thinking in order to build a shed.</p>
+
+<p>I think one of the major problems is our labelling of the subject.</p>
+
+<blockquote><p>Computer Science is no more about computers than astronomy is about telescopes</p>
+
+<blockquote><p> Edsger Dijkstra</p></blockquote></blockquote>
+
+<p>Unfortunately, Computer Science has little to do with Science either. Let&rsquo;s get straight what we are actually teaching here. We&rsquo;re teaching programming, network infrastructure, databases, communication protocols, markup. We&rsquo;re teaching these things because these technologies are so ubiquitous and important, that it will benefit everyone to have a <em>little</em> understanding of them. We are <em>not</em> teaching a revolutionary new way of thinking that will have wider benefits to society.</p>
+
+<p>Why should we give every student an opportunity to learn Computing? Some of the students we teach might one day become the next Linus Torvalds or Steve Wozniak. Some of our students might become senior developers, collaborating on amazing new technologies and changing the world for the better. Some of our students might develop the algorithms for more realistic flag fluttering in Call of Duty XIII. Some of our students might become Gregs executives and not give the developers such a hard time when they can&rsquo;t sort six million customer records according to when they last ordered a bacon sandwich, in real time, in a browser&hellip; that&rsquo;s IE6.</p>
+
+<p>Lets stop trying to make Computing something it isn&rsquo;t, and instead be clear as to what we&rsquo;re teaching and why we&rsquo;re teaching it. Let&rsquo;s stop being afraid of the words programming and coding, as if it&rsquo;ll scare students away. Let&rsquo;s be honest about Computing, and we&rsquo;ll see it&rsquo;s popularity soar.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Rant From My Brother]]></title>
+    <link href="http://coding2learn.org/blog/2013/09/26/a-rant-from-my-brother/"/>
+    <updated>2013-09-26T19:03:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/09/26/a-rant-from-my-brother</id>
+    <content type="html"><![CDATA[<p>My brother is the reason I learned to code. To be honest, he&rsquo;s probably forgotten more about programming than I&rsquo;ll ever know, and I&rsquo;m not exaggerating. His preferred languages are Haskell and OCaml, but he&rsquo;s recently had to dive into Javascript for a project he&rsquo;s working on. I received this email from him tonight, and I found it amusing so I thought I&rsquo;d share it. (Note &ndash; he talks about Python a lot as it&rsquo;s the language I understand the most.)</p>
+
+<p>Javascript is pretty pathetic when it comes to bug-finding. Here&rsquo;s some Python:</p>
+
+<pre><code>&gt;&gt;&gt; foo = {}
+&gt;&gt;&gt; foo["bar"] = 3
+&gt;&gt;&gt; foo["baz"]
+</code></pre>
+
+<p>The dictionary foo doesn&rsquo;t have a key &ldquo;baz&rdquo;, and this is likely a typo. Python sensibly throws an error, and execution will not continue.</p>
+
+<p>In Javascript:</p>
+
+<pre><code>&gt;&gt; var foo = {};
+&gt;&gt; foo["bar"] = 3;
+&gt;&gt; foo["baz"]
+</code></pre>
+
+<p>This does not throw any errors, but instead returns undefined. This is not entirely retarded, until we find that Javascript happily coerces undefined to NaN (Not a Number) whenever it appears in arithmetic expressions. Since NaN is a valid floating point number, it can happily propagate through running code. Things go from entirely retarded to completely fucking braindead when we find that Javascript will accept NaN as an argument in most functions:</p>
+
+<pre><code>ctx.fillRect(NaN,NaN,NaN,NaN)
+</code></pre>
+
+<p>In other words, what started out as a typo which would have Python raise an error at the earliest possible opportunity is silently ignored by Javascript, only to be found if one notices certain rectangles not being drawn. Tracking down such a typo from a bit of missing graphics is going to be a pain in the arse.</p>
+
+<p>Now functions: Javascript has no time for conventions of mathematics, programming, or basic sanity. In Javascript, any function can be passed <em>any</em> number of arguments without raising an error. The concept of arity be damned. Extra arguments in Javascript are ignored. Missing arguments are set to undefined. And, as explained before, undefined will be coerced to NaN in arithmetic expressions to create lots of great bug-full code when you forget the number of arguments required of a function. For further hilarity, undefined can be used as a key to a dictionary. So if you do:</p>
+
+<pre><code>function insert(y,x) {
+   dict[x] = y;
+   ...
+}
+</code></pre>
+
+<p>and you accidentally call insert(3), you won&rsquo;t be told, as you would be in Python, that you are missing a required argument. Instead, x gets bound to undefined, and the dictionary will be become</p>
+
+<pre><code>{ undefined : 3 }
+</code></pre>
+
+<p>That&rsquo;s almost certainly an unexpected behaviour.</p>
+
+<p>The way that function parameters are interpreted leads to this truly bizarre example, which I got from another site:</p>
+
+<pre><code>['10','10','10','10','10'].map(parseInt)
+</code></pre>
+
+<p>this yields the truly <em>weird</em></p>
+
+<pre><code>[10,NaN,2,3,4]
+</code></pre>
+
+<p>The function <em>map</em> is supposed to apply its argument to every value in a list. In sane languages,</p>
+
+<pre><code>[x,x,x,x,x].map(f) 
+</code></pre>
+
+<p>should give you the list</p>
+
+<pre><code>[f(x),f(x),f(x),f(x),f(x)]
+</code></pre>
+
+<p>In Javascript, for likely dumbfuck reasons, map takes a function of three arguments. The first argument is bound to the element in the list. The second argument is bound to the index into the list. The third argument is bound to the entire list. This will cause surprise when you don&rsquo;t know exactly how many arguments the argument to map is expecting (parseInt in this case), but don&rsquo;t expect a prompt error in case of mistakes, as you would get in Python.</p>
+
+<p>It turns out that, in this case, parseInt takes an optional second argument which is the base in which the first argument is to be interpreted. For unexplored reasons, when the base is 0, the argument is read in base 10. In base 1, NaN is always returned. This explains the first two elements in</p>
+
+<pre><code>[10,NaN,2,3,4]
+</code></pre>
+
+<p>The third element is &ldquo;10&rdquo; in base 2. The fourth element is &ldquo;10&rdquo; in base 3. The last element is 10 in base 4</p>
+
+<p>Ridiculous.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How We Were Trained to Lower the Drawbridge]]></title>
+    <link href="http://coding2learn.org/blog/2013/09/08/how-we-were-trained-to-discard-our-tinfoil-hats/"/>
+    <updated>2013-09-08T09:28:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/09/08/how-we-were-trained-to-discard-our-tinfoil-hats</id>
+    <content type="html"><![CDATA[<p>A few years ago, the parody news network <a href="http://www.theonion.com">The Onion</a> released a video claiming that <a href="http://www.theonion.com/video/cias-facebook-program-dramatically-cut-agencys-cos,19753/">Facebook was a massive CIA surveillance project</a>. It was funny at the time. It&rsquo;s not so funny any more.</p>
+
+<p>Perhaps naively, I believe that Facebook, Google and the other tech giants <em>reluctantly</em> cooperate with the NSA. I believe that they comply with FISA requests because <em>they have to</em> and that they have remained tight-lipped about their cooperation because if they don&rsquo;t then whistleblowers could expect the same fair, just and proportionate treatment as has been meted out to Chelsea Manning and Edward Snowden. These corporations exist, after all, to make money and handing over vast swathes of user data to spy agencies just isn&rsquo;t in their financial interests.</p>
+
+<p>I feel however, that the tech giants have accomplished something far more insidious, and in many ways more detrimental to our privacy than is claimed in the video. They&rsquo;ve trained us to devalue privacy.</p>
+
+<p>There&rsquo;s an old saying that actually used to mean something.</p>
+
+<blockquote><p>An Englishman&rsquo;s home is his castle.</p></blockquote>
+
+<p>In the UK at least, it used to be the case that we valued our privacy. What went on between the four walls of our homes was our business and nobody else&rsquo;s. There were only three people in your life you would ever share your private lives with: your doctor, your priest and your spouse &ndash; in that order.</p>
+
+<p>Then along came the Internet. At first it was a place only a select few could publish. You had to have the technical ability to setup a webserver and write in HTML, and the World Wide Web was a curious place filled with niche websites created by geeks, academics and hackers. But it didn&rsquo;t stay like that for long. Facebook, Wordpress, Twitter, Google+ all came along and made it easy to share everything.</p>
+
+<p>We&rsquo;ve been trained to lower the drawbridge, lift the portcullis and let the world into our castles. Social networks reward us every time we publicise our lives, and we eat it up. This is most startlingly apparent amongst Generation Y, for whom sharing their lives with the world is so natural and ingrained, they almost see it as a basic human right. They consider privacy as something archaic and quaint, no longer relevant to the world we live in. They like it when they Google their own name and see images of themselves on the front page. They compete to gain followers on Tumblr, friends on Facebook and mentions on Twitter.</p>
+
+<p>We don&rsquo;t yet know what full the consequences of the sharing culture will be. When today&rsquo;s fifteen year-old students attempt to stand for Parliament in twenty years time, and the front pages of the red-tops are plastered with embarrassing Snapchat selfies, will we look at them and decide that they are not fit to represent us in Government, or will we just shrug and acknowledge that &lsquo;everyone used to do that&rsquo;?</p>
+
+<p>We can see one consequence of our <em>training</em> by the social networks here and now though &ndash; apathy. When Snowden&rsquo;s revelations first hit the Guardian&rsquo;s front page almost nobody cared. Hacker News was filled with NSA stories, but you&rsquo;d expect that from a community of technophiles. The BBC seemed to include Snowden stories as an after thought though, and even then, they focused on the human element of where he was and what he was doing, rather than the surveillance programs he had exposed. Glen Greenwald promised there would be more to come, and he didn&rsquo;t disappoint. But the latest revelation, that the NSA and GCHQ consider most of the widely used encryption technologies as a mere hindrance to their dragnet data gathering, has caused barely a ripple in the public consciousness.</p>
+
+<p>Why are we not out on the streets protesting these flagrant invasions of our privacy? Why are we not holding our parliamentary representatives to account, and demanding the end to mass surveillance of innocent citizens? Why are we not doing something&hellip; anything?</p>
+
+<p>Generation W didn&rsquo;t think about privacy, they just had it. Amongst Generation X there are precious few of us who care. Most of Generation Y consider privacy a barrier to their lives. It&rsquo;s Generation Z where the only hope lies.</p>
+
+<p>As a teacher I grow tired of the government and media constantly passing the buck and demanding that all societal ills need to be cured in schools. Teenage pregnancy rates too high? Teachers can fix that. Young adults can&rsquo;t manage their finances? Teachers can fix that. Too much apathy at the polling booth? Teachers can fix that. Government, the media and parents constantly abdicate responsibility and throw more into the curriculum in an attempt to fix society. When it comes to teaching about online privacy however, I don&rsquo;t see who can help Generation Z other than the teachers. The media, the Government and the corporations have no vested interest in a generation that considers privacy important. As for parents, they&rsquo;re already setting up Facebook accounts for their babies so that we can track their offspring&rsquo;s progress from cradle to grave.</p>
+
+<p>I&rsquo;ll start. I&rsquo;m currently working on a scheme of work about cryptography. There&rsquo;ll be plenty of Computer Science concepts in there, but I also intend for students to understand the importance of strong cryptography from a societal perspective rather than just a technological perspective. My hope is that it will make them think a little when using digital communication technologies, about exactly who has access to the content they send. I&rsquo;ll publish it here when I&rsquo;m done. If you would like to join me in this campaign, then please feel free to share links to resources in the comments section, or on Twitter, and I will endeavour to curate and publish what you send.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Myth of Mobile Computing]]></title>
+    <link href="http://coding2learn.org/blog/2013/08/30/the-myth-of-mobile-computing/"/>
+    <updated>2013-08-30T15:01:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/08/30/the-myth-of-mobile-computing</id>
+    <content type="html"><![CDATA[<p><em>note &ndash; I use the term General Purpose Computer (GPC) rather than PC as it does not carry connotations of which OS you are running</em></p>
+
+<p>This is not an anti-Apple rant. I love my iPad. It&rsquo;s the device I pick up the moment I get out of bed in the morning. While drinking my coffee I check my emails. While on the toilet I check my twitter feed. While having a cigarette I read Hacker News. While taking my dogs for a walk I listen to Today on iPlayer. While at work I project content to students via AppleTV. When I get home I play Plants vs Zombies with my son. While marking students&#8217; work, I&rsquo;ll watch some film or TV series on Netflix.</p>
+
+<p>To misquote Charlton Heston:</p>
+
+<blockquote><p>You can take my iPad out of my cold dead hands.</p></blockquote>
+
+<p>Now go back and read that first paragraph. What do I do with my iPad? I use it to view content and communicate. iPads, and any tablet, are great for this. I <strong>do not</strong> use my iPad to create <strong>anything</strong>.</p>
+
+<p>I&rsquo;ve tried. Honestly I have. I&rsquo;ve downloaded apps to make videos, code in Python, create presentations and write blog posts. I&rsquo;ve excitedly shown friends and colleagues how <em>easy</em> it is to knock up a Keynote presentation, or make Khan Academy style tutorials using various apps. I&rsquo;ve even purchased a stylus and tried using it as a notebook only to discover that my writing is illegible unless my characters are at least three inches high. As time goes on, the apps I&rsquo;ve downloaded to &lsquo;aid&rsquo; productivity get used less and less, and I find myself firing up my MacBook whenever I want to do any serious work. I got sick of finding workarounds to get over the restrictions of the OS; transferring files along a chain of apps or even emailing them to myself. I now have a simple policy for managing my apps. If an update comes through, and I haven&rsquo;t used the app in more than a month, I delete it. This is what my home screen looks like. These are the only apps I have.</p>
+
+<p><img src="http://coding2learn.org/post_images/MobileMyth/homescreen.PNG" alt="My Only Screen" /></p>
+
+<p>I read <a href="http://www.theguardian.com/technology/2013/aug/30/pc-boom-over-tablets-smartphones">this Guardian article</a> (on my iPad) and I&rsquo;d like to spend a little bit of time explaining why mobile computing, in its current form, is not going to take over the world.</p>
+
+<p>The statistics that are quoted in the article, along with fancy looking graphs, are all for GPC <em>sales</em>. This is important. They are not quoting GPC <em>usage</em>. If you want some statistics on usage, then check out this screen-shot for the analytics of my blog.</p>
+
+<p><img src="http://coding2learn.org/post_images/MobileMyth/analytics.png" alt="Analytics" /></p>
+
+<p>When you buy a computer you tend to expect it to last a few years, and you tend to just buy one or maybe two for an entire household. This is not the case with mobile devices. Along with every member of my family over the age of eleven, I am on carrier subsidised mobile contract. We upgrade our phones regularly. So just looking at my household, you have a purchasing pattern of maybe one computer every five years and four mobile devices every two years.</p>
+
+<p>I use a third generation iPad (screw Apple&rsquo;s ridiculous naming policy). My son uses a first generation iPad. This is a device that is barely three years old and has already become obsolete. Even typing on the thing is a pain, as the OS has advanced beyond the hardware and it takes what seems like seconds for the key presses to register. The last few apps that I&rsquo;ve tried to download for him won&rsquo;t run on the OS and those that do tend to crash pretty often. I should think that most people that purchased a first generation iPad that can afford to, have already replaced it with a later one.</p>
+
+<p>Is it any wonder that the sales of mobile devices are so high? Mobile devices, in my opinion, are like disposable computers. They&rsquo;re designed to be that way. You use it for a couple of years, it becomes obsolete, and you buy a new one (all with a nice carrier subsidised contract so you don&rsquo;t realise how much money you&rsquo;re actually spending). I think this is in part due to the manufacturers&#8217; policy and in part due to the rate at which technology is developing. Apple and Samsung are constantly innovating, bringing out better mobile devices each year that consumers want to buy. At the same time, they have no desire to ensure that a two-year old device is as functional as the day you bought it. We&rsquo;ve been tricked into accepting this business model in a way we would never accept with our GPCs. A three-year old computer will still run the latest operating systems and software, so we don&rsquo;t need to upgrade as often. Most households now already own a GPC, so is it any wonder that sales have flat lined.?</p>
+
+<p>Convergence I think is important, it&rsquo;s just that the big manufacturers have got it the wrong way around. They&rsquo;ve taken the sales of mobile devices and made an assumption &ndash; everyone wants mobile and people aren&rsquo;t buying PCs. Apple and Microsoft are pushing to make our GPCs more like mobile, in the misguided opinion that this is what people want. It&rsquo;s not. Windows 8 is a prime example of how this tactic has failed, it&rsquo;s a God awful OS that nobody wants. I hope Apple have paid attention to this. Imagine if the next iteration of Mac OS stopped you from installing apps from outside the App Store, removed the terminal and locked away your file system. How many of us would upgrade then?</p>
+
+<p>No, the correct style of convergence can be seen in Canonical&rsquo;s attempt at launching the <a href="http://www.indiegogo.com/projects/ubuntu-edge">Ubuntu Edge</a>. The crowd funded campaign failed, but I think it gained significant enough numbers of pledges to show that this is what many consumers want. We want a GPC that we can carry around in our pockets, SMS our friends with, post to Twitter with and browse the Web with. Then, when we need to do some work we can plug the thing into a monitor, link up a Bluetooth keyboard and get on with some real productivity.</p>
+
+<p>I&rsquo;ve seen a worrying number of articles about schools who have bought into the mobile craze. They&rsquo;re making the assumption that current mobile technologies are the future, and that they need to jump on the bandwagon as quickly as possible. This is of course only part of their reasoning. Any school that&rsquo;s offering free or subsidised iPads has a competitive advantage over neighbouring schools, not in terms of results, but in terms of bums on uncomfortable plastic seats. Schools are paid per pupil, so getting feet through the door is important, and nothing is more attractive to a student than the ability to use Instagram during their History lessons.</p>
+
+<p>The problem with school iPad programs is that they&rsquo;re providing the students with a device that will be next to useless by the time they&rsquo;re half-way through their education. Additionally they&rsquo;re providing students with a device for viewing content rather than creating content, and education should be about creation. I don&rsquo;t want my students reading blogs, I want them writing them. I don&rsquo;t want my students playing games, I want them developing them. I don&rsquo;t want my students watching videos, I want them making them. I don&rsquo;t want my students using Snapchat&hellip; full stop.</p>
+
+<p>I think that in a few years time this will cease to be a topic of conversation. I think we will see convergence of personal computing devices in the right direction, and I&rsquo;ll own a pocket-sized GPC with a user interface that doesn&rsquo;t inhibit my ability to create content. We need to keep in mind that <em>mobile</em> is still young, and it should not be assumed that that iOS and Android (operating systems that are only six-years old) will be the future. And if you&rsquo;re the Head of a school, please think twice before jumping on the iPad bandwagon, there&rsquo;s better uses of public money.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How I Do My Computing by !=Richard Stallman]]></title>
+    <link href="http://coding2learn.org/blog/2013/08/21/how-i-do-my-computing-by-equals-richard-stallman/"/>
+    <updated>2013-08-21T21:48:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/08/21/how-i-do-my-computing-by-equals-richard-stallman</id>
+    <content type="html"><![CDATA[<ul>
+<li><p>I use an HP laptop with Windows on it. I&rsquo;m not sure which model it is. It&rsquo;s blue. I also have a Samsung Galaxy thingy, which I use for the Internet quite a lot.</p></li>
+<li><p>I chose Windows because it came with the laptop, with lots of helpful tools made by HP so that I can connect to wireless networks and play DVDs. I don&rsquo;t understand why Windows doesn&rsquo;t include these things itself.</p></li>
+<li><p>I do all my work in Word or PowerPoint. They&rsquo;re both great programs. I use Word to write letters, memos, reports and make posters for my gardening club. I like Word because it means that anyone can be a graphic designer. I like to use WordArt all the time, as it makes my work stand out. When I make PowerPoints I take my audience into consideration. I like to make my presentations interesting for them. To do this I use lots of different colours and different fonts on each slide and make sure that the words fly around and bounce a lot.</p></li>
+<li><p>I use email mainly for registering with Internet sites I go on. I use Gmail for this. I&rsquo;ve never been able to figure out how to get emails in Outlook so I just get them on the Internet. I never download attachments from people I don&rsquo;t know. If I know the person and they send me an attachment then I&rsquo;ll download it and open it as I love the funny pictures I get sent in zip files. I sometimes get emails from friends warning of scams where people pretend their car has broken down or something. I forward these emails to all my friends so they also know the dangers.</p></li>
+<li><p>I get a lot of spam emails and I don&rsquo;t understand why. I&rsquo;m not stupid so I don&rsquo;t send money to people in Nigeria. I like the emails I get about competitions though, and I normally enter these as I&rsquo;d quite like to win a new MacBook.</p></li>
+<li><p>The Internet on my laptop runs really slowly and it&rsquo;s quite difficult to see sites because of all the toolbars that take up half of the screen. Also when I load the Internet I get annoyed by all the pop-ups that suddenly appear for adult dating sites and on-line gambling. I used to get lots of annoying messages on the Internet about things like ActiveX, but a friend showed me how to change my security settings so they don&rsquo;t come any more.</p></li>
+<li><p>I use all the Social Networks. I have two-thousand friends on Facebook. I use Twitter and Google+ to follow the celebrities I like. On Twitter I follow nine hundred people and I have six hundred people in my Google+ circles. I don&rsquo;t post things to Twitter very much as I only have six followers and they just send me offers for adult dating and on-line gambling.</p></li>
+<li><p>When I&rsquo;m on the Internet I&rsquo;m always logged into Facebook, Google and Twitter. This makes it easy to &lsquo;Like&rsquo; videos I see. Also it means I don&rsquo;t have to type in my password all the time. My password is easy to remember as it&rsquo;s my cat&rsquo;s name and my son&rsquo;s date of birth. A friend told me this was unsafe, but I don&rsquo;t see how anyone could possibly guess it.</p></li>
+<li><p>I like to post pictures of my cat to Facebook, and also photo&rsquo;s of my son, especially at his birthday parties. Facebook is great. I have the Facbook app on my phone. I post things to Facebook about ten times a day, and it is the only way I talk to my friends and family. Every photo I take goes on Facebook. I also check-in whenever I&rsquo;m out somewhere interesting, like my local Fish and Chip shop or when I&rsquo;m abroad for a couple of weeks on holiday.</p></li>
+<li><p>Sometimes Facebook is not so good, especially when you get people bullying you on there who don&rsquo;t agree with you. I hate bullies so I always put them in their place, and my messages are always in capitals so they know how wrong they are.</p></li>
+<li><p>I&rsquo;m quite careful with my computer. I make sure I&rsquo;m safe by having anti-virus. I have AVG, AVAST, Norton, Microsoft Security Essentials and a few others that I downloaded from sites that said my computer was infected. I do find anti-virus annoying because they keep telling me to update, but I just close the messages as I think this is a scam to make me buy newer versions that don&rsquo;t do anything special.</p></li>
+<li><p>I&rsquo;m very careful with my files. I have two folders on my desktop. The first folder has all my files in it and I always backup everything into the second folder in case the first one gets accidentally deleted. I used to backup everything onto a USB, but I kept losing it.</p></li>
+</ul>
+
+
+<p><a href="http://stallman.org/stallman-computing.html">Original Stallman post</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[KickStarting a Revolution]]></title>
+    <link href="http://coding2learn.org/blog/2013/08/16/kickstarting-a-revolution/"/>
+    <updated>2013-08-16T13:00:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/08/16/kickstarting-a-revolution</id>
+    <content type="html"><![CDATA[<p>So I&rsquo;ve had an idea. It might very well be the worst idea ever, I can&rsquo;t really judge as I&rsquo;m naturally biased &ndash; <em>I think all my ideas are amazing</em>.</p>
+
+<h2>The First World Problem</h2>
+
+<p><img src="http://coding2learn.org/post_images/KickstartARevolution/firstworldproblems.png" alt="First World Problems" /></p>
+
+<p>I&rsquo;m unhappy about the current political landscape. In England we have a choice between three parties; Conservatives, Labour and Liberal Democrats. Realistically, you will end up being represented by a Member of Parliament (MP) from one of theses parties (voters in Scotland, Wales and Northern Ireland have a couple of more options).</p>
+
+<p>The three parties have broadly similar policies. They differ slightly in various areas. The Conservatives want corporations to run the country with the free-market providing checks and balances. Labour want corporations to run the country with trade unions providing checks and balances. The Liberal Democrats want corporations to run the country with <a href="http://www.theguardian.com/uk">The Guardian</a> providing checks and balances.</p>
+
+<p>In truth, the policies of the &lsquo;big three&rsquo; don&rsquo;t really seem to affect me very much. I&rsquo;m a teacher by trade and I&rsquo;m probably more or less a typical middle class, mode income, median family-size and mean citizen of the UK. No matter which party gets into power, life continues as normal. If I were living on the poverty line or if I were a millionaire, then I might be incentivised to favour one party over another, but I&rsquo;m in neither situation.</p>
+
+<p>Now I could vote altruistically. I could vote for a party whose policies favour one or other of my country&rsquo;s other demographic groups. I could cast my vote in the hope that in some small way I would be helping people on the poverty line who could get by if they could just get that extra boost from the state. Or maybe I could vote to help small business owners that could become big business owners if only they could just get that extra boost from the state. Or perhaps I could vote to help millionaires that could become billionaires if only they could just get that extra boost from the state. However, in voting for one of the existing parties I would be providing tacit approval of all their policies &mdash;&ndash; policies on education, health, welfare, energy, foreign affairs and, of course, technology.</p>
+
+<blockquote><p>I care about technology.</p></blockquote>
+
+<p>I care that GCHQ has the ability to store and read my emails, view my browsing habits and monitor my telephone conversations. I care that my government is trying to fashion a sanitised Web, where it is considered subversive and perverted to view websites that aren&rsquo;t prefixed with the domain telegraph.co.uk. I care that you can face extradition and life imprisonment for accessing a US Federal computer or running a website that leaks sensitive documents to the world. I care that it&rsquo;s okay for me to give a dog-eared copy of <em>Nineteen Eighty Four</em> to a friend, but if I try to do the same with an ebook purchased from Amazon then all of a sudden I&rsquo;m a criminal. I know these are First World problems, but I live in the First World.</p>
+
+<p>I don&rsquo;t want to put a cross in a box next to the name of any candidate that comes from any of the three major parties. I watched William Hague stand up in parliament and talk about PRISM, and not a single member of the house gave a serious challenge to what he said. I&rsquo;ve read article after article on how ISPs will be forced to introduce filtering on their networks, and not seen a single objection from the party in opposition. So what choices are left to me?</p>
+
+<p>There are a few fringe parties, but they tend to field representatives in only a few constituencies, and most certainly not in mine. There&rsquo;s a single protest party, the UK Independence Party, but UKIP and I don&rsquo;t really see eye-to-eye, due to the fact that I am married to a naturalised British citizen and together we have three mixed-race children. There&rsquo;s the Pirate Party, but again they don&rsquo;t run in my constituency. Besides, they have a silly name and their focus seems to be solely on &lsquo;sharing culture&rsquo; at the expense of everything else.</p>
+
+<p>What we need in this country is a protest party that campaigns on the issues of Internet privacy, censorship, copyright/patent reform and computer misuse laws. Most importantly, the party <em>needs to have representation in every constituency in the country</em>. It&rsquo;s no use gaining a few hundred votes in Manchester and a few hundred votes in Bethnal Green. The party needs thousands of votes nationwide. That way a message can be sent to those in parliament that people care about these issues.</p>
+
+<h2>The First World Solution</h2>
+
+<p><img src="http://coding2learn.org/post_images/KickstartARevolution/firstworldsolutions.png" alt="First World Solutions" /></p>
+
+<p>Confession time. The solution is not to &ldquo;Kickstart a revolution&rdquo;, but that sounds so much better than &ldquo;Crowdfund a Protest Party&rdquo;. There are a lot of people that care about the impact of politics on technology, and many of these same people also like crowdfunding.</p>
+
+<p>Here&rsquo;s my idea: a 21st century solution to a 21st century problem.</p>
+
+<p>There are <a href="http://en.wikipedia.org/wiki/List_of_United_Kingdom_Parliament_constituencies">650 constituencies</a> in the United Kingdom. The deposit required to stand in an election to the House of Commons is <a href="http://en.wikipedia.org/wiki/Deposit_(politics">£500</a>). So a quick calculation reveals that the total cost to any political party wishing to field a candidate in every constituency is £325000. Now I&rsquo;ve done some <a href="http://lmgtfy.com/?q=registering+political+party+uk">fairly hefty research</a> and it appears that the only other cost is a £25 fee to register a new party. So the absolute minimum funding required stands at £325025.</p>
+
+<p><a href="http://www.kickstarter.com/help/guidelines?ref=footer">Kickstarter</a> won&rsquo;t allow crowd-funding of political parties from what I can gather.</p>
+
+<blockquote><p>Kickstarter cannot be used to raise money for causes, whether it&rsquo;s the Red Cross or a scholarship, or for &ldquo;fund my life&rdquo; projects, like tuition or bills.</p></blockquote>
+
+<p><a href="http://www.indiegogo.com/">Indiegogo</a> has no problem with it though. Indiegogo charges a 4% fee on successful campaigns, so that needs to be factored into our target. We&rsquo;ll need £338,568 in order to pay Indiegogo, and have enough left to register the party and then pay a deposit for a candidate to stand in every constituency in the UK.</p>
+
+<p>Reward structures could be fairly simple. £5 lists you as a party founder on a website and a chance to vote on the name/emblem of the party. £25 gives you automatic membership to the party and a vote in the selection of candidates. £500&hellip; wins you The Internet?</p>
+
+<p>There are a few administrative roles that need filling. We&rsquo;d need a Party leader, a Treasurer and a Nominating Officer. They would come from the party membership and be elected by the party membership. These would be volunteer roles, but, if various stretch goals were reached, there could be funding to pay for the time they dedicate to the party.</p>
+
+<p>Campaigning would be centralised. We&rsquo;d harness the technical skills of the party membership to create a website and maybe a few YouTube videos. We&rsquo;d promote the party on social networks, keeping the message alive until election day. There should be no need for local campaigning. I&rsquo;ve never had a politician knock on my door to discuss who I&rsquo;d vote for, but I have had plenty of leaflets and fliers put though my letterbox and they end up straight in the recycling. I do, however, pay attention to my Twitter stream, to the blogs I read and to interesting posts my wife shares with me from her Facebook feed.</p>
+
+<p>There should be no need for a manifesto either. In reality, it would be a hindrance. We could draft policies on reforming privacy laws, censorship, copyright law and patent law, and that would be it. We&rsquo;d have no intention of winning any seats, and realistically we&rsquo;d have no chance anyway. The point is to provide voters with a &lsquo;None of the above&rsquo; option, but with a clear message as to why &lsquo;None of the above&rsquo; is being chosen. Having policies designed to fix the looming pension crisis, or on welfare reform would detract from our message and probably generate a significant amount of infighting. We need a party that you&rsquo;d feel happy to vote for no matter where you lie on the political spectrum.</p>
+
+<p>I don&rsquo;t know whether this is a good idea or not. I suppose that&rsquo;s why I&rsquo;m asking here for your opinions. This post could fade with time, unread and ignored. Maybe it&rsquo;ll be read and I&rsquo;ll be shot down as a fool with no understanding of politics. Or maybe I&rsquo;m on to something. Feel free to comment anyway, either below or via my twitter handle <a href="https://twitter.com/coding2learn">@coding2learn</a></p>
+
+<p>I&rsquo;m happy to modify and update this post in response to your comments.</p>
+
+<p><em>Edit &ndash; <a href="https://news.ycombinator.com/item?id=6232071">Comments on Hacker News</a></em></p>
+
+<p><em>Edit &ndash; <a href="http://discours.es/post/we-need-a-viable-protest-party-for-the-next-uk-election">Doug Belshaw&rsquo;s post in response</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Kids Can't Use Computers... And This Is Why It Should Worry You]]></title>
+    <link href="http://coding2learn.org/blog/2013/07/29/kids-cant-use-computers/"/>
+    <updated>2013-07-29T15:37:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/07/29/kids-cant-use-computers</id>
+    <content type="html"><![CDATA[<p><strong>TL;DR?</strong> <em>Why not just go watch another five second video of a kitten with its head in a toilet roll, or a 140 character description of a meal your friend just stuffed in their mouth.</em> <strong>&ldquo;nom nom&rdquo;</strong>. <em>This blog post is not for you.</em></p>
+
+<p>The phone rang through to my workroom. It was one of the school receptionists explaining that there was a visitor downstairs that needed to get on the school&rsquo;s WiFi network. iPad in hand I trotted on down to the reception to see a young twenty-something sitting on a chair with a MacBook on her knee.</p>
+
+<p>I smiled and introduced myself as I sat down beside her. She handed me her MacBook silently and the look on her face said it all. <em>Fix my computer, geek, and hurry up about it.</em> I&rsquo;ve been mistaken for a technician enough times to recognise the expression.</p>
+
+<p>&lsquo;I&rsquo;ll need to be quick. I&rsquo;ve got a lesson to teach in 5 minutes,&rsquo; I said.
+&lsquo;You teach?&#8217;<br/>
+&#8216;That&rsquo;s my job, I just happen to manage the network team as well.&rsquo;</p>
+
+<p>She reevaluated her categorisation of me. Rather than being some faceless, keyboard tapping, socially inept, sexually inexperienced network monkey, she now saw me as a colleague. To people like her, technicians are a necessary annoyance. She&rsquo;d be quite happy to ignore them all, joke about them behind their backs and snigger at them to their faces, but she knows that when she can&rsquo;t display her PowerPoint on the IWB she&rsquo;ll need a technician, and so she maintains a facade of politeness around them, while inwardly dismissing them as <em>too geeky</em> to interact with.</p>
+
+<p>I looked at the MacBook. I had no experience with OSX at the time. Jobs wasn&rsquo;t an idiot though, and displayed proudly in the top right hand corner of the screen was a universally recognisable WiFi symbol. It took me seconds to get the device on the network.</p>
+
+<p>I handed back the MacBook and the woman opened up Safari. &lsquo;The Internet&rsquo;s not working,&rsquo; she stated with disdain.</p>
+
+<p>I&rsquo;ve heard this sentence so many times now from students and staff, that I have a stock reaction. Normally I pull out my mobile phone and pretend to tap in a few numbers. Holding the handset to my ear I say: <em>&lsquo;Yes, give me the office of the President of the United States&hellip;. NO, I WILL NOT HOLD. This is an emergency&hellip;. Hello, Mister President, I&rsquo;m afraid I have some bad news. I&rsquo;ve just been informed that The Internet is not working.&rsquo;</em></p>
+
+<p>I decided that the young woman would probably not appreciate the sarcasm, and took the MacBook off her so I could add in the county&rsquo;s proxy server settings. I had no idea how to do this on OS X. The county proxy is there to ensure that the staff and students can&rsquo;t access porn on the school network. It also filters for violence, extremism, swearing, social networks, alcohol, smoking, hacking, gaming and streaming video. Ironically, if you were to perform a Google search for &ldquo;proxy settings OS X&rdquo;, the top results would all be blocked because you used the word &lsquo;proxy&rsquo; and that is a filtered word.</p>
+
+<p>&lsquo;Do you know where the proxy settings are?&rsquo; I asked, hopefully.</p>
+
+<p>I don&rsquo;t get a response. I might as well have asked her <em>&lsquo;Can you tell me how to reticulate splines using a hexagonal decode system so that I can build a GUI in Visual Basic and track an IP Address.&rsquo;</em></p>
+
+<p>It took me about ten seconds to find and fill in the proxy settings. I handed back her MacBook and she actually closed Safari and reopened it, rather than just refreshing. &lsquo;Thanks.&rsquo; Her gratitude was overwhelming.</p>
+
+<p>I was about to leave, when she stopped me. &lsquo;PowerPoint&rsquo;s not working&rsquo;.</p>
+
+<p>This probably didn&rsquo;t warrant a phone call to the President of the United States. I&rsquo;m sure he takes an interest in technological issues, but the breakdown of the World&rsquo;s leading presentation tool would probably be somewhat of a relief to him. At least the NSA wouldn&rsquo;t be losing any more poorly designed slide-shows.</p>
+
+<p><img src="http://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2013/6/8/1370710424658/new-prism-slide-001.jpg" alt="Tax Dollars Don't Pay For Graphic Designers" /></p>
+
+<p>I sat back down and once again took possession of her MacBook. The slide she was displaying contained an embedded YouTube video, and as I have said, streaming video is blocked. I tried to explain this to the woman, and she then patronisingly explained that it shouldn&rsquo;t matter as the video was in her PowerPoint and that was running from her USB stick. I didn&rsquo;t argue, it was really not worth my time. Instead I do what I normally do for people and <em>Just make it work</em>. Using my iPad&rsquo;s 3G connection, I set up a hot-spot and download the YouTube video using a popular ripping site and then embed the now local video in her presentation.</p>
+
+<p>&lsquo;So what do you teach?&rsquo; she asked as I worked on her presentation. <br/>
+&lsquo;Computing&rsquo; I replied.<br/>
+&lsquo;Oh&hellip; I guess these days you must find that the kids know more about computers than the teachers&hellip;.&rsquo;</p>
+
+<p>If you teach IT or Computing, this is a phrase that you&rsquo;ll have heard a million times, a billion times, epsilon zero times, aleph one times. Okay I exaggerate, but you&rsquo;ll have heard it a lot. There are variants of the phrase, all espousing today&rsquo;s children&rsquo;s technical ability. My favourite is from parents: &lsquo;Oh, Johnny will be a natural for A-Level Computing. He&rsquo;s always on his computer at home.&rsquo; The parents seem to have some vague concept that spending hours each evening on Facebook and YouTube will impart, by some sort of cybernetic osmosis, a knowledge of PHP, HTML, JavaScript and Haskell.</p>
+
+<p>Normally when someone spouts this rubbish I just nod and smile. This time I simply couldn&rsquo;t let it pass. &lsquo;Not really, most kids can&rsquo;t use computers.&rsquo; (<em>and neither can you</em> &ndash; I didn&rsquo;t add.)</p>
+
+<p>She looked surprised by my rejection of what is generally considered a truism. After all, aren&rsquo;t all teenagers digital natives? They have laptops and tablets and games consoles and smart phones, surely they must be the most technologically knowledgeable demographic on the planet. The bell went, and I really did have a lesson to teach, so I didn&rsquo;t have time to explain to her my theories on why it is that kids can&rsquo;t use computers. Maybe she&rsquo;ll read my blog.</p>
+
+<p>The truth is, kids <em>can&rsquo;t</em> use general purpose computers, and neither can most of the adults I know. There&rsquo;s a narrow range of individuals whom, at school, I consider technically savvy. These are roughly the thirty to fifty year-olds that have owned a computer for much of their adult lives. There are, of course, exceptions amongst the staff and students. There are always one or two kids in every cohort that have already picked up programming or web development or can strip a computer down to the bare bones, replace a motherboard, and reinstall an operating system. There are usually a couple of tech-savvy teachers outside the age range I&rsquo;ve stated, often from the Maths and Science departments who are only ever defeated by their school laptops because they don&rsquo;t have administrator privileges, but these individuals are rare.</p>
+
+<p>I suppose before I go on I should really define what I believe &lsquo;can&rsquo;t use a computer&rsquo; means. Being a network manager as well as a teacher means I am often the first port of call when a teacher or student is having issues with computers and associated devices. As my lead technician likes to state, <em>&lsquo;the problem is usually the interface between the chair and the keyboard.&rsquo;</em> Here are a few examples of <em>issues</em> I encounter on a fairly regular basis.</p>
+
+<p><em>A sixth-former brings me his laptop, explaining that it is running very slowly and keeps shutting down. The laptop is literally screaming, the processor fans running at full whack and the case is uncomfortably hot to touch. I run Task Manager to see that the CPU is running at 100% despite the only application open being uTorrent (which incidentally had about 200 torrent files actively seeding). I look at what processes are running and there are a lot of them, hogging the CPU and RAM. What&rsquo;s more I can&rsquo;t terminate a single one. &lsquo;What anti-virus are you using?&rsquo; I ask, only to be told that he didn&rsquo;t like using anti-virus because he&rsquo;d heard it slowed his computer down. I hand back the laptop and tell him that it&rsquo;s infected. He asks what he needs to do, and I suggest he reinstalls Windows. He looks at me blankly. He can&rsquo;t use a computer.</em></p>
+
+<p><em>A kid puts her hand up in my lesson. &lsquo;My computer won&rsquo;t switch on,&rsquo; she says, with the air of desperation that implies she&rsquo;s tried every conceivable way of making the thing work. I reach forward and switch on the monitor, and the screen flickers to life, displaying the Windows login screen. She can&rsquo;t use a computer.</em></p>
+
+<p><em>A teacher brings me her school laptop. &lsquo;Bloody thing won&rsquo;t connect to the internet.&rsquo; she says angrily, as if it were my fault. &lsquo;I had tonnes of work to do last night, but I couldn&rsquo;t get on-line at all. My husband even tried and he couldn&rsquo;t figure it out and he&rsquo;s excellent with computers.&rsquo; I take the offending laptop from out of her hands, toggle the wireless switch that resides on the side, and hand it back to her. Neither her nor her husband can use computers.</em></p>
+
+<p><em>A kid knocks on my office door, complaining that he can&rsquo;t login. &lsquo;Have you forgotten your password?&rsquo; I ask, but he insists he hasn&rsquo;t. &lsquo;What was the error message?&rsquo; I ask, and he shrugs his shoulders. I follow him to the IT suite. I watch him type in his user-name and password. A message box opens up, but the kid clicks OK so quickly that I don&rsquo;t have time to read the message. He repeats this process three times, as if the computer will suddenly change its mind and allow him access to the network. On his third attempt I manage to get a glimpse of the message. I reach behind his computer and plug in the Ethernet cable. He can&rsquo;t use a computer.</em></p>
+
+<p><em>A teacher brings me her brand new iPhone, the previous one having been destroyed. She&rsquo;s lost all her contacts and is very upset. I ask if she&rsquo;d plugged her old iPhone into her computer at any time, but she can&rsquo;t remember. I ask her to bring in her laptop and iPhone. When she brings them in the next day I restore her phone from the backup that resides on her laptop. She has her contacts back, and her photos as well. She&rsquo;s happy. She can&rsquo;t use a computer.</em></p>
+
+<p><em>A teacher phones my office, complaining that his laptop has &ldquo;no internet&rdquo;. I take a walk down to his classroom. He tells me that the internet was there yesterday, but today it&rsquo;s gone. His desktop is a solid wall of randomly placed Microsoft office icons. I quickly try and explain that the desktop is not a good place to store files as they&rsquo;re not backed up on the server, but he doesn&rsquo;t care; he just wants the internet back. I open the start menu and click on Internet Explorer, and it flashes to life with his homepage displayed. He explains that the Internet used to be on his desktop, but isn&rsquo;t any more. I close I.E. and scour the desktop, eventually finding the little blue &lsquo;e&rsquo; buried amongst some PowerPoint and Excel icons. I point to it. He points to a different location on the screen, informing me of where it used to be. I drag the icon back to it&rsquo;s original location. He&rsquo;s happy. He can&rsquo;t use a computer.</em></p>
+
+<p><em>A kid puts his hand up. He tells me he&rsquo;s got a virus on his computer. I look at his screen. Displayed in his web-browser is what appears to be an XP dialogue box warning that his computer is infected and offering free malware scanning and removal tools. He&rsquo;s on a Windows 7 machine. I close the offending tab. He can&rsquo;t use a computer.</em></p>
+
+<p>Not really knowing how to use a computer is deemed acceptable if you&rsquo;re twenty-five or over. It&rsquo;s something that some people are even perversely proud of, but the prevailing wisdom is that <em>all</em> under eighteens are technical wizards, and this is simply not true. They can use some software, particularly web-apps. They know how to use Facebook and Twitter. They can use YouTube and Pinterest. They even know how to use Word and PowerPoint and Excel. Ask them to reinstall an operating system and they&rsquo;re lost. Ask them to upgrade their hard-drive or their RAM and they break out in a cold sweat. Ask them what https means and why it is important and they&rsquo;ll look at you as if you&rsquo;re speaking Klingon.</p>
+
+<p>They click &lsquo;OK&rsquo; in dialogue boxes without reading the message. They choose passwords like qwerty1234. They shut-down by holding in the power button until the monitor goes black. They&rsquo;ll leave themselves logged in on a computer and walk out of the room. If a program is unresponsive, they&rsquo;ll click the same button repeatedly until it crashes altogether.</p>
+
+<p>How the hell did we get to this situation? How can a generation with access to so much technology, not know how to use it?</p>
+
+<h3>Parents</h3>
+
+<p>I&rsquo;ve messed up, as I&rsquo;m sure many of you have. When we purchased an XBox it was <em>Techno-Dad to the rescue</em>. I happily played about with the mess of cables and then created profiles for everyone. When my son&rsquo;s MacBook was infected with the FlashBack virus <em>Techno-Dad to the rescue</em>. I looked up some on-line guides and then hammered away in the terminal until I had eradicated that bad-boy. When we purchased a &lsquo;Family Raspberry Pi&rsquo; <em>Techno-Dad to the rescue</em>. I hooked it all up, flashed an OS to the SD-card and then sat back proudly, wondering why nobody other than me wanted to use the blasted thing. All through their lives, I&rsquo;ve done it for them. Set-up new hardware, installed new software and acted as in-house technician whenever things went wrong. As a result, I have a family of digital illiterates.</p>
+
+<h3>Schools</h3>
+
+<p>When it became apparent that computers were going to be important, the UK Government recognised that ICT should probably become part of the core curriculum in schools. Being a bunch of IT illiterates themselves, the politicians and advisers turned to industry to ask what should be included in the new curriculum. At the time, there was only <em>one</em> industry and it was the Microsoft monopoly. <code>&lt;sarcasm&gt;</code>Microsoft thought long and hard about what should be included in the curriculum and after careful deliberation they advised that students should really learn how to use office software<code>&lt;/sarcasm&gt;</code>. And so the curriculum was born. <code>&lt;sarcasm&gt;</code>Schools naturally searched long and hard for appropriate office software to teach with, and after much care they chose Microsoft Office<code>&lt;/sarcasm&gt;</code>. So since 2000 schools have been teaching students Microsoft skills (Adobe skills were introduced a little later).</p>
+
+<p>But the curriculum isn&rsquo;t the only area in which we&rsquo;ve messed up. Our network infrastructures in UK schools is equally to blame. We&rsquo;ve mirrored corporate networks, preventing kids and teachers access to system settings, the command line and requiring admin rights to do almost anything. They&rsquo;re sitting at a general purpose computer without the ability to do any general purpose computing. They have access to a few applications and that&rsquo;s all. The computers access the internet through proxy servers that aggressively filter anything less bland than Wikipedia, and most schools have additional filtering software on-top so that they can maintain a white-list of &lsquo;suitable sites&rsquo;.</p>
+
+<h3>Windows and OS X</h3>
+
+<p>My first PC was an ESCOM P100 with Windows 3.1. My second was a Packard Bell with Windows 95. My third was a custom build with Windows XP. My fourth was an Acer laptop with Windows 7. I now use a MacBook Pro with OS X (or occasionally Ubuntu, depending on my mood and levels of paranoia). Windows 7 was a game changer for me. It was the first time I&rsquo;d installed an OS and had literally nothing to configure. Even a PE teacher could have managed it.</p>
+
+<p>Windows 7 (I hate 8, but that&rsquo;s another story) and Mac OS X are great operating systems. They&rsquo;re easy to use, require almost no configuration, include or provide easy access to all needed drivers, and generally &lsquo;just work&rsquo;. It&rsquo;s fantastic that everyone from the smallest child to the eldest grandparent can now use a computer with absolute minimal technical literacy, but it&rsquo;s also a disaster. It didn&rsquo;t used to be like this. Using an OS used to be hard work. When things went wrong you had to dive in and get dirty to fix things. You learned about file systems and registry settings and drivers for your hardware. Not any more.</p>
+
+<p>I should think the same thing will one day be said about the ability to drive. There will still be the auto-mobile geeks out there that&rsquo;ll build kit cars and spend days down the track honing their driving skills, while the rest of us sit back and relax as Google ferries us to and from work in closeted little bubbles.</p>
+
+<h3>Mobile.</h3>
+
+<p>Mobile has killed technical competence. We now all carry around computers that pretend to be mobile phones or tablets. Most people don&rsquo;t even think of their phone as a computer. It&rsquo;s a device to get quick and easy access to Google. It&rsquo;s a device that allows us to take photos and post them to Facebook. It&rsquo;s a device that allows us to play games and post our scores to Twitter. It&rsquo;s a device that locks away the file system (or hides it from us). It&rsquo;s a device that only allows installation of sanitised apps through a regulated app store. It&rsquo;s a device whose hardware can&rsquo;t be upgraded or replaced and will be obsolete in a year or two. It&rsquo;s a device that&rsquo;s as much a general purpose computer as the Fisher Price toy I had when I was three.</p>
+
+<p><img src="http://modculture.typepad.com/photos/uncategorized/2007/11/12/chatter.jpg" alt="My first mobile phone" /></p>
+
+<p>So this is the state of the world. Let&rsquo;s make up some statistics to illustrate my point. If 20 years ago 5% of us had a computer in our homes, then you could pretty much guarantee that 95% of those computer owners were technically literate. Today, let&rsquo;s assume that 95% of us have a computer in our homes, then I would guess that around 5% of owners are technically literate.</p>
+
+<p>This is scary and I&rsquo;m sure the real statistics would be scarier still. It&rsquo;s something we should all be worried about.</p>
+
+<h3>Why?</h3>
+
+<p>Technology affects our lives more than ever before. Our computers give us access to the food we eat and the clothes we wear. Our computers enable us to work, socialise and entertain ourselves. Our computers give us access to our utilities, our banks and our politics. Our computers allow criminals to interact with us, stealing our data, our money, our identities. Our computers are now used by our governments, monitoring our communications, our behaviours, our secrets. <a href="http://boingboing.net/2012/01/10/lockdown.html">Cory Doctorow</a> put it much better than I can when he said:</p>
+
+<blockquote><p>There are no airplanes, only computers that fly. There are no cars, only computers we sit in. There are no hearing aids, only computers we put in our ears.</p></blockquote>
+
+<p>The Summer of Surveillance has me worried.</p>
+
+<center><iframe width="420" height="315" src="//www.youtube.com/embed/MxSxDkzXqho#t=55s" frameborder="0" allowfullscreen></iframe></center>
+
+
+<p>After <a href="http://en.wikipedia.org/wiki/PRISM_%28surveillance_program%29">Snowden&rsquo;s</a> revelations first came out, I went into school on Monday to find that most of my colleagues and students had either not heard about the scandal, or if they had just didn&rsquo;t care. While I was busy <a href="http://coding2learn.org/blog/2013/06/08/its-our-own-fault-dot-dot-dot-deal-with-it/">deleting my on-line accounts</a> and locking down my machines, my friends called me paranoid and made jokes about tinfoil hats. My family shrugged their shoulders in that <em>&lsquo;Meh&rsquo;</em> way, and mumbled the often quoted &lsquo;Nothing to hide, nothing to fear.&rsquo; Then, out of the blue, Cameron announces that ISPs are going to start filtering The Internet. It&rsquo;s described as a &lsquo;porn filter&rsquo;, but the <a href="https://www.openrightsgroup.org/blog/2013/sleepwalking-into-censorship">Open Rights Group&rsquo;s</a> investigations implies that far more than porn will be filtered by default. Then to top it all, Cameron&rsquo;s chief advisor on this issue has her <a href="http://order-order.com/2013/07/23/claire-perrys-website-hacked-by-porn-prankers/">website hacked</a> and displays just how <a href="http://www.bbc.co.uk/news/technology-23437473">technically illiterate</a> she really is.</p>
+
+<p>Tomorrow&rsquo;s politicians, civil servants, police officers, teachers, journalists and CEOs are being created today. These people don&rsquo;t know how to use computers, yet they are going to be creating laws regarding computers, enforcing laws regarding computers, educating the youth about computers, reporting in the media about computers and lobbying politicians about computers. Do you thinks this is an acceptable state of affairs? I have David Cameron telling me that internet filtering is a good thing. I have William Hague telling me that I have nothing to fear from GCHQ. I have one question for these policy makers:</p>
+
+<blockquote><p>Without reference to Wikipedia, can you tell me what the difference is between The Internet, The World Wide Web, a web-browser and a search engine?</p></blockquote>
+
+<p>If you can&rsquo;t, then you have no right to be making decisions that affect my use of these technologies. Try it out. Do your friends know the difference? <em>Do you?</em></p>
+
+<h2>Fixing it all</h2>
+
+<h3>Parents</h3>
+
+<p>Stop fixing things for your kids. You spend hours of your time potty-training them when they&rsquo;re in their infancy, because being able to use the toilet is pretty much an essential skill in modern society. You need to do the same with technology. Buy them a computer by all means, but if it goes wrong, get them to fix it. Buy them a smartphone, give them £10 of app store credit a year and let them learn why in-app-purchases are a bad idea. When we teach kids to ride a bike, at some point we have to take the training wheels off. Here&rsquo;s an idea. When they hit eleven, give them a plaintext file with ten-thousand WPA2 keys and tell them that the real one is in there somewhere. See how quickly they discover Python or Bash then.</p>
+
+<h3>Schools</h3>
+
+<p>In the UK we&rsquo;re moving some way towards fixing this issue. Gove and I have a love-hate relationship, but I genuinely like what he is doing to the Computer Science curriculum. We just need to make sure that Academy Heads stick to Computer Science, and don&rsquo;t use curriculum reform as a means to save some money by scrapping the subject all together.</p>
+
+<p>We could do more though. We should be teaching kids not to install malware, rather than locking down machines so that it&rsquo;s physically impossible. We should be teaching kids to stay safe on-line rather than filtering their internet. Google and Facebook give kids money if they manage to find and exploit security vulnerabilities in their systems. In schools we exclude kids for attempting to hack our systems. Is that right?</p>
+
+<h3>Windows and OSX</h3>
+
+<p><strong>USE LINUX</strong>. Okay, so it&rsquo;s not always practical, but most Linux distros really get you to learn how to use a computer. Everyone should at least have a play around at some point in their lives. If you&rsquo;re not going to use Linux then if you&rsquo;re on OS X have a play around in the terminal. It really is fun and you get to feel like a hacker, as does the Command Line or PowerShell in Windows.</p>
+
+<h3>Mobile</h3>
+
+<p>This one&rsquo;s tricky. iOS is a lost cause, unless you jail-break, and Android isn&rsquo;t much better. I use Ubuntu-Touch, and it has possibilities. At least you feel like the mobile phone is yours. Okay, so I can&rsquo;t use 3G, it crashes when I try to make phone calls and the device runs so hot that when in my jacket pocket it seconds as an excellent nipple-warmer, but I can see the potential.</p>
+
+<h2>Conclusion</h2>
+
+<p>This has happened before. It is not a new phenomenon. A hundred years ago, if you were lucky enough to own a car then you probably knew how to fix it. People could at least change the oil, change the tyres, or even give the engine a tune-up. I&rsquo;ve owned a car for most of my adult life and they&rsquo;re a mystery to me. As such I am dependent on salesmen to tell me which one to buy, mechanics to tell me what&rsquo;s wrong and then fix it for me and as technology progresses I am becoming dependent on satellite navigation as well. I doubt my five year-old son will even need to learn to drive. It&rsquo;ll be done for him by his car. When he needs to get it fixed he&rsquo;ll be directed to the mechanic that pays the most for on-line advertising. When he wants to stop for a bite to eat he&rsquo;ll be directed to the fast-food outlet that pays the most for on-line advertising. When he needs to recharge his dilithium crystals he&rsquo;ll be directed to the filing station that pays the most for on-line advertising.</p>
+
+<p>I want the people who will help shape our society in the future to understand the technology that will help shape our society in the future. If this is going to happen, then we need to reverse the trend that is seeing digital illiteracy exponentially increase. We need to act together, as parents, as teachers, as policy makers. Let&rsquo;s build a generation of hackers. Who&rsquo;s with me?</p>
+
+<p><em>Edit: I&rsquo;ve corrected a few errors that have been pointed out to me. This in no way invalidates the comments I&rsquo;ve received on my poor use of the English language.</em></p>
+
+<p><em>Edit: There are (now dead) discussions on <a href="https://news.ycombinator.com/item?id=6186730">Hacker News</a> and <a href="http://www.reddit.com/r/technology/comments/1k1ezs/kids_cant_use_computers_and_this_is_why_it_should/">Reddit</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GitHub for Teachers]]></title>
+    <link href="http://coding2learn.org/blog/2013/07/12/github-for-teachers/"/>
+    <updated>2013-07-12T20:13:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/07/12/github-for-teachers</id>
+    <content type="html"><![CDATA[<h2>Why use GitHub?</h2>
+
+<p>I&rsquo;m not sure how you share resources within your departments, but I should imagine it is much the same way as resources are shared in my school. The creator of the resource uploads them to a shared area on the school server and then informs everyone where they are (probably by email).</p>
+
+<p>Of course teachers want to look at the resources at home and so download copies of the resources and store them locally on their laptops.</p>
+
+<p>If I, as the resource author, update the original files to improve them or correct errors then I change them locally, delete the shared resource and then re-upload the resource. I then notify everyone by email that the resource has been updated. They delete their local copies and then download the original version.</p>
+
+<p>Of course the teachers in my department might also want to make alterations. They change a file locally and then upload it to the shared area with a different file name. They notify me by email of the update, I review their updated file, approve of it, delete the original from the server and my local copy and re-download the resource.</p>
+
+<p>Not only is this inefficient, but how often do we lose changes? How often do we see files called copy_of_copy_of_copy_of_worksheet1.doc? There must be a better way&hellip;</p>
+
+<h2>What is GitHub?</h2>
+
+<p>To answer that I&rsquo;m first going to have to tell you about Git. Git is a tool that assists with version control and is used by programmers. Basically it allows you to have a bunch of files and go back and look at previous states of those files from an earlier time, or to clone those files into a new branch and work on improvements.</p>
+
+<p>GitHub is an on-line workspace that works with Git. It&rsquo;s that simple. But it can be used for so much more than simple version control. GitHub can be <em>the</em> place for you to share your resources with the world.</p>
+
+<h2>How can I use GitHub?</h2>
+
+<p>You can use GitHub to share your resources with other teachers. They&rsquo;ll be able to easily download your work, or transfer it to their own workspace. What&rsquo;s more, they can make improvements and ask you to merge their improvements back into your work. It&rsquo;s a win/win situation.</p>
+
+<h2>How do I use GitHub?</h2>
+
+<p>Just follow this simple guide and you&rsquo;ll be harnessing the power of GitHub in a few minutes.</p>
+
+<h3>Create an account</h3>
+
+<ol>
+<li>Goto www.github.com</li>
+<li>Sign Up</li>
+</ol>
+
+
+<p><img src="http://coding2learn.org/post_images/github/Signup.png" alt="GitHub signup" /></p>
+
+<h3>Create a repository</h3>
+
+<p>Your a teacher, not a hacker, so there&rsquo;s really no need to start messing around with command line Git. You&rsquo;re going to be using it though the website to start with and then an installable desktop app later on.
+First thing to do is create a repository.</p>
+
+<ol>
+<li>Click on the <code>Create a new repo</code> button<br/>
+<img src="http://coding2learn.org/post_images/github/New_Repo.png" alt="Sign Up" /></li>
+<li>Give your repository a sensible name and a description. I teach Systems &amp; Control as well as Computing, so I&rsquo;ll make a resource on the exciting world of resistors.
+<img src="http://coding2learn.org/post_images/github/Name_repo.png" alt="New Repo" /></li>
+<li>Don&rsquo;t forget to check the &ldquo;initialize with a Readme&rdquo; check box</li>
+</ol>
+
+
+<h3>The README file</h3>
+
+<p>We&rsquo;ve all seen README files before. They&rsquo;re normally used to give the user the required information to get started with a bit of software. On GitHub, the README is where you can explain what your resource is and how to use it.
+The README file will be the only file in your repo to begin with. Here&rsquo;s the tricky part &ndash; to edit the README you&rsquo;re going to have to know a little Markdown.</p>
+
+<ol>
+<li>Click on the README.md file in the repo.
+<img src="http://coding2learn.org/post_images/github/README.png" alt="README" /></li>
+<li>Then click on the Edit button<br/>
+<img src="http://coding2learn.org/post_images/github/Edit_README.png" alt="Edit README" /></li>
+<li>You&rsquo;re going to be presented with an editor that you can write in. Go ahead and delete all the text that&rsquo;s in there. Then prepare to feel 1337&hellip;<br/>
+<img src="http://coding2learn.org/post_images/github/Markup.png" alt="Markup" /></li>
+<li>README files are written in Markdown. It&rsquo;s an easy way of generating HTML. This entire blog post is written in Markdown. You can get a full description of Markdown <a href="http://daringfireball.net/projects/markdown/syntax">here</a> but we want to get started quickly so bookmark the page and put &ldquo;Learning Markdown&rdquo; on your to-do list.</li>
+</ol>
+
+
+<h3>Markdown</h3>
+
+<p>Okay, here goes. Try copying and pasting the following into the Editor and then hitting the preview button.</p>
+
+<pre><code># RESISTORS WTF!!!  
+## By An Author  
+### A converted academy resource
+
+[Resistors](http://en.wikipedia.org/wiki/Resistor) are so exciting I can barely contain myself.
+![Resistors](http://upload.wikimedia.org/wikipedia/commons/e/e6/Resistor.jpg)  
+
+&gt; WOW Resistors are great
+
+1. They resist.
+2. They have colours bands.
+3. They are small
+
+**Here are some codes**
+
+|Colour|Multiplier|
+|------|----------|
+|Black |0         |
+|Brown |1         |  
+|Red   |2         |
+|Orange|3         |
+</code></pre>
+
+<ol>
+<li>Use this as a template or use the <a href="http://daringfireball.net/projects/markdown/syntax">Daring Fireball</a> link to create your own README file.</li>
+<li>Once you&rsquo;re done click the &ldquo;Commit Changes&rdquo; button (Commit is not the same as Save. Your changes are saved, but the old version is still there for you to go back to if you want.)<br/>
+<img src="http://coding2learn.org/post_images/github/Commit.png" alt="Commit" /></li>
+<li>Go back to your repo home page by clicking on the repo name at the top of the page.<br/>
+<img src="http://coding2learn.org/post_images/github/Back_to_README.png" alt="Back to repo" /></li>
+<li>You should see your README proudly displayed.</li>
+</ol>
+
+
+<h2>Installing a GitHub app</h2>
+
+<p>We now need a way to interact with GitHub from our computers. I&rsquo;ll assume you&rsquo;re on a Windows machine, but the process is almost identicle for Mac users. If you&rsquo;re on Linux then I&rsquo;m not going to patronise you as you&rsquo;re probably already comfortable in the terminal and you can go ahead and Google how to use Git.</p>
+
+<ol>
+<li>Goto <a href="http://windows.github.com">the Windows download page</a> or <a href="http://mac.github.com">the Mac download page</a>.<br/>
+<img src="http://coding2learn.org/post_images/github/Download_Git.png" alt="Download Git" /></li>
+<li>Download the client and install and accept all the usual Terms &amp; Conditions and allow the installation of dependencies like .NET.</li>
+</ol>
+
+
+<blockquote><p>(a note to Network Managers &ndash; if a teacher has directed you to this page after asking for permission to install this program then please don&rsquo;t be a dick. Seriously, are you that much of an IT-Nazi that you can&rsquo;t allow them to have this on your network? Millions of developers far more experienced than you use GitHub, so grow up and do the teachers in your school a favour.)</p></blockquote>
+
+<h2>Loging in</h2>
+
+<ol>
+<li>Once opened you should see a screen like this.<br/>
+<img src="http://coding2learn.org/post_images/github/app_login.png" alt="Login" /></li>
+<li>Enter your GitHub login details.</li>
+<li>I encountered a hitch here, as I didn&rsquo;t enter my email address. This is essential. If you&rsquo;re not given the option then goto <code>tools</code> and<br/>
+<img src="http://coding2learn.org/post_images/github/Options.png" alt="Optons" /><br/>
+enter your email address.<br/>
+<img src="http://coding2learn.org/post_images/github/add_email.png" alt="Email" /></li>
+<li><p>Back at the main screen you should see your available repos to clone.
+<img src="http://coding2learn.org/post_images/github/repo_choose.png" alt="Clone" />
+click the clone button.</p></li>
+<li><p>Now open up your Documents and you should see a new folder called GitHub, in there will be your cloned repo.<br/>
+<img src="http://coding2learn.org/post_images/github/Cloned_directory.png" alt="Cloned" /></p></li>
+<li>Well done, you now have a local copy of your GitHub repository.</li>
+</ol>
+
+
+<h2>Adding and altering files.</h2>
+
+<ol>
+<li>Let&rsquo;s add a new document to the repository.</li>
+<li>Create a Word (or any other document) file. Throw in an appropriate question and save it to the newly created directory in your Documents.<br/>
+<img src="http://coding2learn.org/post_images/github/added_file.png" alt="File added" /></li>
+<li>In the GitHub app, when you go back and look at your repo you should see a big yellow box telling you that you have uncommitted changes.<br/>
+<img src="http://coding2learn.org/post_images/github/added_worksheet.png" alt="Uncommited" /></li>
+<li>Add a message detailing your changes and click <code>COMMIT</code></li>
+<li>You should now be able to see the details of the changes.<br/>
+<img src="http://coding2learn.org/post_images/github/Commited_changes.png" alt="Commited" /></li>
+<li>Click the <code>sync</code> button at the top of the screen and the changes will be pushed to your repo on GitHub.com.</li>
+</ol>
+
+
+<h2>How to use GitHub with your team.</h2>
+
+<p>The great thing about GitHub is that your team can now, all, use the resource you&rsquo;ve created and it will always be up-to-date. All they need to do is create their own GitHub accounts and then <code>Fork</code> your repo. This will create a copy of your repo in their workspace. It&rsquo;s all incredibly easy to do.</p>
+
+<ol>
+<li>Provide them with the URL for your GitHub repo. It&rsquo;ll be something like <a href="https://github.com/MarcScott/resistor_colour_codes">https://github.com/MarcScott/resistor_colour_codes</a>.</li>
+<li>All they need to do (once they have an account setup) is to goto the URL and click the <code>Fork</code> button.<br/>
+<img src="http://coding2learn.org/post_images/github/fork_repo.png" alt="Fork Repo" /></li>
+<li>They now have a fork of your repo. If they to have the GitHub app installed, then they can clone the repo onto their own machines.<br/>
+<img src="http://coding2learn.org/post_images/github/clone_fork.png" alt="Clone repo" /></li>
+<li>Anytime you make changes to the files in your repo, they will be able to see that alterations, additions and deletions have been made. All they need do is sync their fork of the repo and they&rsquo;ll have the changes on their local machines. But that&rsquo;s not all&hellip;</li>
+</ol>
+
+
+<h2>Pull requests</h2>
+
+<p>Here&rsquo;s the truly most useful aspect of GitHub &ndash; Pull requests. When a colleague of yours makes changes to a repo that you have control over, they can submit a Pull request. You then pull their changes into your repo and merge. This is an excellent method of collaboration and ensures everyone has an up-to-date repo.<br/>
+1. Your colleague makes an alteration to one of your files (or adds/deletes a file).<br/>
+2. In their GitHub app they can then Commit the changes.<br/>
+<img src="http://coding2learn.org/post_images/github/added_question.png" alt="Commit" /><br/>
+3. Let&rsquo;s switch back to the website now. Your colleague can go on-line and on the right hand side of their screen they can click on the <code>Pull Requests</code> option.<br/>
+<img src="http://coding2learn.org/post_images/github/pull_request.png" alt="Pull Requests" /><br/>
+4. They then click the <code>New pull request</code> button, confirm it and write a message detailing their change.<br/>
+<img src="http://coding2learn.org/post_images/github/new_pull_request.png" alt="New pull" /><br/>
+<img src="http://coding2learn.org/post_images/github/new_pull_request_2.png" alt="New pull confirm" /><br/>
+<img src="http://coding2learn.org/post_images/github/new_pull_request_3.png" alt="New pull message" /><br/>
+5. You should receive an email with the Pull request and it will also be visible on the website.<br/>
+<img src="http://coding2learn.org/post_images/github/received_pull.png" alt="Received Pull" /><br/>
+6. You can then merge the pull with your repo and just like that you (and all others) have a repo with the updated files.
+<img src="http://coding2learn.org/post_images/github/merge_pull.png" alt="Merge Pull" /></p>
+
+<p>Well that&rsquo;s it and I&rsquo;ve barely scratched the surface of all Git can do. I&rsquo;ve talked nothing of version control or multiple branches, not to mention using GitHub.io to host your own static website. All these and much, much more can be found by on-line searches. Please comment below if I&rsquo;ve made any mistakes or you think there&rsquo;s a better way.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The One App to Rule Them All]]></title>
+    <link href="http://coding2learn.org/blog/2013/07/09/the-one-app-to-rule-them-all/"/>
+    <updated>2013-07-09T11:55:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/07/09/the-one-app-to-rule-them-all</id>
+    <content type="html"><![CDATA[<blockquote><p>New app &ndash; AutoBotClassRoomManager will revolutionise the way you teach forever.</p>
+
+<p>Why your students must use KnowledgeHeroine and use it now.</p>
+
+<p>1,000,000,000 ways to use PinBook in your classroom.</p></blockquote>
+
+<p>These are typical of the tweets that pop into my twitter feed on an almost hourly basis. I&rsquo;m a Computer Science teacher, so naturally I follow a fair number of educators and the #edtech tag.</p>
+
+<p>It&rsquo;s typically some new app that is going to make my life as a teacher so easy that I&rsquo;ll barely need to sober up and get out of bed to ensure 100% A*-A passes. Or perhaps it&rsquo;s an app that is so powerful that by virtue of simply installing it on their phones, my students are guaranteed first class degrees from Oxford. Or, of course, it&rsquo;s new ways of using existing products and services in a revolutionary way, that is so effective it&rsquo;s like injecting knowledge straight through their eyeballs.</p>
+
+<p>Well I&rsquo;d like to talk about an app that is quite possibly the most powerful piece of software out there. An app that will allow you to harness the raw power of your computer and do things you would never have dreamed possible. An app, next to which, all others pales into insignificance.</p>
+
+<p>The app is Notepad, or TextEdit or Gedit, depending on your OS. That&rsquo;s right, the pre-installed text editor that comes with every desktop computer. Why am I talking about text editors? Well with a text editor I can write an essay, keep a to-do list, store an address book, fashion a blog post or build a web page. If I&rsquo;m feeling particularly confident then I can use it to write a script to switch my proxy settings, create my own RSS reader or build SkyNet and instigate thermonuclear war.</p>
+
+<p>Text editors are amazing apps but they seem to be mostly ignored by the vast majority of educators and students. Of course, there are text editors and then there are text editors. Personally I use Sublime Text. Others might prefer Notepad++ or TextMate. The truly hardcore hackers will rarely leave Vim or Emacs, and the minimalists out there will stick to Nano.</p>
+
+<p>Despite the many advantages of using more advance text editors (although I&rsquo;ve heard Emacs described as an excellent operating system that lacks only a good text editor), I would argue that you&rsquo;re always best starting your students with the default editor for your OS. Kid&rsquo;s these days have been brought up in an app-centric world. As far as they&rsquo;re concerned Word is for essays, PowerPoint is for presentations, and Internet Explorer IS the Internet. If you start to teach your kids how to write Python code in Sublime Text, then they&rsquo;ll jump to the conclusion that you need Sublime Text for coding. We need to get away from the idea that when your faced with a problem, you find an app to solve it.</p>
+
+<p>When I teach HTML to my year 7 students, we start in Notepad. Notice that I said I&rsquo;m teaching them HTML. I don&rsquo;t want to teach them how to use Dreamweaver to build web pages. We build our first web pages with headings, links, images and some embedded video in Notepad. Once I&rsquo;m sure they have it nailed then I might be generous and show them Dreamweaver, where they&rsquo;ll discover the joys of syntax highlighting and auto-completion, but not before they understand the basics.</p>
+
+<p>When I introduce kids to Python I again use Notepad. They need to learn that file extensions are important and that there&rsquo;s a world of difference between .txt, .html and .py. Once they&rsquo;ve negotiated variables, conditionals and a few basic loops, I&rsquo;ll let them progress to IDLE so that again they can benefit from some basic syntax highlighting and of course the all important interpreter.</p>
+
+<p>But it&rsquo;s not just HTML and coding that I encourage students to use Notepad for. If they need to write up some work, then I&rsquo;d prefer them to knock something together in Notepad than use Word. Don&rsquo;t get me wrong, Word is a fantastic software package. If I need to do a mail merge then Word&rsquo;s what I&rsquo;ll use. If I need a document with embedded spreadsheet charts and graphs, then Word is an excellent choice. But I rarely need to do anything more complex than knock up a blog post, a quick lesson plan or the minutes of yesterday&rsquo;s department meeting.</p>
+
+<p>Using a text editor is not only a case of using the right tool for the right job. It also avoids distractions. In the old days I would set the kids a task and then watch them spend the next twenty minutes choosing the most hideous font they could find, ensuring that every heading was displayed in a different and garish colour, and that their document was surrounded with a border of fucking apples. With a text editor you forgo all that crap. They write text, and content is King. If they want a bit of prettiness then I show them Markdown. It&rsquo;s easy to use and the web based parser is great.</p>
+
+<p>There are a few other nice little uses that I&rsquo;ve used Notepad for. I like my students to keep a learning journal, where they write what they&rsquo;ve achieved in a lesson and a personal objective for next lesson. Notepad lends itself perfectly to keeping diaries. All they need to do is add .LOG to the beginning of their text files and every new addition is date-stamped automatically. Presentations? Not a problem. Once they&rsquo;ve got to grips with HTML then using Deck.js or Reveal.js is a breeze. All they need to do is open up the html file and beautiful presentations are a few keystrokes away.</p>
+
+<p>Text editors are great and we should be encouraging our students to use them more. So do me a favour; next time you&rsquo;re considering trying out that fantastic app you&rsquo;ve seen promoted on Twitter, or planning on using some social network in a new and fantastic way, pause for a second. Have a little think. Can you achieve the same end result by using the humble text editor?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Precrime]]></title>
+    <link href="http://coding2learn.org/blog/2013/06/29/precrime/"/>
+    <updated>2013-06-29T11:04:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/06/29/precrime</id>
+    <content type="html"><![CDATA[<p>I&rsquo;m not the first blogger to highlight the similarities between the Snowden revelations and Philip K. Dick&rsquo;s excellent short story &ndash; <a href="http://readanybooks.net/ScienceFiction/The_Minority_Report/">The Minority Report</a>. I&rsquo;ll brush over the fact that most commentators seem to have forgotten, or be unaware, that the concept of Precrime did not first appear in the inferior adaptation of the short-story, staring a certain Scientologist, and push on with my point. (By the way, if you haven&rsquo;t read the Minority Report, stop reading this now and go and read something written by someone with talent and vision. Then go and read all his other stories that were so stunningly ruined by Hollywood, including Screamers, We can remember it for you wholesale, Paycheck and The Adjustment Team. (Do Androids dream of electric sheep? and A Scanner Darkly were well made adaptations but still worth reading.))</p>
+
+<p>The concept put forward in The Minority Report, was that three mutant humans with powers of precognition, are able to view events up to about two-weeks into the future. They babble relentlessly in an unintelligible way about what they can see and the data is hoovered up by computers for processing. The computers are then able to produce punch-cards showing when, where and by whom a crime will be committed. The would-be perpetrators are arrested and imprisoned before they are able to commit the crime. The entire system is called Precrime.</p>
+
+<p>The parallels with the current events surrounding NSA/GCHQ data gathering and Precrime are fairly obvious and so I&rsquo;ll gloss over them by stating that it is potentially possible for an agency to examine the data from your phone calls, texts, browsing habits and social network interactions, and then profile you. This profile could match with that of known criminals and hence provide an agency with motivation to investigate you more thoroughly. Perhaps it would be enough for them to judge you a sufficient risk to society that you could be rendered and imprisoned without trial.</p>
+
+<p>What most people seem to fail to understand was that Dick did not espouse the opinion that Precrime itself was a dangerous issue. The short story, if anything, judges Precrime to be an important step forward for mankind and the protagonist in the story sacrifices himself in order to preserve its sanctity. The twist in the story was not that Precrime is fundamentally flawed, but that under certain rare and unique circumstances Precrime can fail to make accurate predictions. Those circumstances are when feedback occurs.</p>
+
+<p>Feedback in The Minority Report occurs because the protagonist is able to see the predictions made by the Precogs and hence alter his own future. In the story, this is in turn foreseen by one of the Precogs who makes a differing prediction of the future, which the protagonist also becomes aware of. This leads the third Precog to make a further prediction, which turns out to be the correct one.</p>
+
+<p>In the story the ability to feedback into the system is unique to the protagonist. He is the only one who can see the predictions made by the Precogs and therefore create the paradoxes. In our digital world however, feedback is integral to the data gathering systems and this is why the very concept of profiling people based upon their digital signatures is so dangerous.</p>
+
+<p>I buy a book on Amazon. I like the book. I give it a five-star rating. Amazon&rsquo;s algorithms are able to make predictions on what other books I might like. A second book is recommended to me, which I buy, like and rate. The process continues. This system relies on feedback and can lead to me buying and rating books on subjects from an increasingly niche area of literature. I start by reading a Victorian History, then a biography of a Victorian gentleman, then a biography of a Victorian policeman, then a biography of Jack the Ripper, and all of a sudden I&rsquo;m in serial killer territory. I&rsquo;m being recommended books about and by serial killers despite the fact that I might never initially have shown any interest. All of a sudden I&rsquo;m caught in a feedback loop. If anyone was to look at my reading habits they might leap to assumptions regarding my obsession with violent sociopaths.</p>
+
+<p>I receive a re-tweeted comment from a person I follow on Twitter, regarding a miscarriage of justice. I follow the OP. Twitter algorithms suggests others I might like to follow. I start to follow others who tweet about social injustice and heavy-handed state actions. Before I know it I could be following some of the most politically extreme activists out there and all of a sudden I&rsquo;m pigeon-holed with them.</p>
+
+<p>I&rsquo;ve read the word radicalisation so much in the press now that I&rsquo;m sure to many it ceases to have any real meaning. My worry is that radicalisation can occur fairly easily in an internet age where there is so much information available, it is impossible for a human to choose what they will read, watch or listen to next. When we walk into a newsagents and purchase a paper we might browse the dozen or so headlines on the front page and then make out decision as to which paper to buy. When we browse for material on the internet the sheer volume of data makes this impossible. Instead we rely on social networks to advise us through friends or advertisements or recommendations. We rely on news aggregators and forums that lend themselves to community bias. We are no longer making free choices as to what we might want to see. Instead, hidden algorithms make those choices for us. These algorithms are fallible and I am sure they can lead to radicalisation.</p>
+
+<p>I&rsquo;ll use myself as an example. Two-years ago I would have been in the &lsquo;If you&rsquo;ve nothing to hide you&rsquo;ve got nothing to fear&rsquo; camp. The Snowden revelations wouldn&rsquo;t have bothered me in the slightest. Since then my reading browsing habits have changed. I read Hacker News daily, I follow the <a href="https://twitter.com/EFF_">@EFF</a> and Pirate Party founder <a href="https://twitter.com/Falkvinge">@Falkvinge</a> on Twitter. My RSS feed contains nothing but technology and digital-freedom blogs. All of a sudden I&rsquo;m blogging about <a href="http://marcscott.github.io/blog/2013/01/14/the-second-amendment-in-the-21st-century/">The Second Amendment in the 21st Century</a> and how <a href="http://marcscott.github.io/blog/2013/06/08/its-our-own-fault-dot-dot-dot-deal-with-it/">I&rsquo;ve quit the cloud</a>. It&rsquo;s difficult to know whether I care about this because of what I&rsquo;ve read on the internet or that I read about this stuff on the internet because I care.</p>
+
+<p>If there is one message that I take from The Minority Report it&rsquo;s not that gathering data on individuals is unethical. It&rsquo;s that in a world where feedback is so integral to our systems, profiling people based upon their data is a fundamentally flawed concept.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The NSA Hears a Who]]></title>
+    <link href="http://coding2learn.org/blog/2013/06/24/the-nsa-hears-a-who/"/>
+    <updated>2013-06-24T11:11:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/06/24/the-nsa-hears-a-who</id>
+    <content type="html"><![CDATA[<p>So young Snowden sat, his laptop on his knee,<br/>
+And wondered whether we&rsquo;d ever be free.<br/>
+Siphoning data from all the four corners,<br/>
+and thinking that someone should finally warn us.</p>
+
+<p>&ldquo;Enough is enough&rdquo; he suddenly thought,<br/>
+This data is private and cannot be sought.<br/>
+People trust Facebook and Google and Bing,<br/>
+This theft of our data&rsquo;s a terrible thing.</p>
+
+<p>So with care and with stealth and with one simple click,<br/>
+He saved a few docs on a USB stick.<br/>
+Then not wishing to stay in the US for long,<br/>
+He boarded a plane and he fled to Hong Kong.</p>
+
+<p>So what was it that the docs actually said?<br/>
+That caused such outrage when finally read?<br/>
+All was revealed as the docs were not sold;<br/>
+But given quite freely to Mister Greenwald.</p>
+
+<p>There&rsquo;s a slideshow whose content is fairly apparent,<br/>
+Though the design is described as frankly abhorrent.<br/>
+It states there&rsquo;s a program that&rsquo;s weirdly named PRISM,<br/>
+The revealing of which has caused a huge schism.</p>
+
+<p>The Spooks and the Feds, to name but a few,<br/>
+(Well okay, the Brits with their GCHQ)<br/>
+Have been hoovering up data without our consent,<br/>
+With complete disregard for the Fourth Amendment.</p>
+
+<p>This data collection has spread like a cancer,<br/>
+With &lsquo;Terrorism&rsquo; given as the only answer,<br/>
+And with each passing day there are more secrets spoken,<br/>
+Till we know that the trust in our leaders is broken.</p>
+
+<p>Obama just sits in his big oval room,<br/>
+His statements on PRISM just seem out of tune.<br/>
+And over in Blighty there&rsquo;s William Hague<br/>
+Whose speeches in Whitehall are equally vague.</p>
+
+<p>Yet Snowden continues to leak all his leaks,<br/>
+While politicos continue to speak all their speaks,<br/>
+And meanwhile the people who think it unjust,<br/>
+Can&rsquo;t help but believe that they&rsquo;ve lost all their trust.</p>
+
+<p>So Snowden is charged with, wait for it&hellip; spying,<br/>
+The irony lost on those authorising,<br/>
+The orders to have the poor man extradited.<br/>
+Though many feel that he ought to be knighted</p>
+
+<p>And so Snowden flees to Moscow then where?<br/>
+To South of the border is probably fair.<br/>
+Not to Europe, SA or over to Oz,<br/>
+But that&rsquo;s strange don&rsquo;t you think? Simply because&hellip;</p>
+
+<p>I remember when these countries held their heads high,<br/>
+And decreed to the world, in days long gone by,<br/>
+That China and Russia and Cuba were all,<br/>
+Countries where freedom meant nothing at all.</p>
+
+<p>I remember the day that the Berlin wall fell,<br/>
+I remember Mandela and Orwell as well,<br/>
+I&rsquo;ve read JFK and his peaceful intent,<br/>
+Heard speeches by Churchill and all that he meant.</p>
+
+<p>And now as I sit, my laptop on my knee<br/>
+I shed a small tear for what may never be.<br/>
+For we&rsquo;ve lost it all to those with the spies,<br/>
+And what can I do, but dry my moist eyes?</p>
+
+<p>But wait just a minute, can nothing be done?<br/>
+Do we give up this battle before it is won?<br/>
+Is there something that every man, women and child,<br/>
+Could do to prevent the State from running wild?</p>
+
+<p>Well you have the power come election day,<br/>
+It&rsquo;s your opportunity to have a say.<br/>
+Send a message to those that have all the powers,<br/>
+That FROM THIS DAY FORTH THE INTERNET&rsquo;S OURS.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[It's Our Own Fault... Deal With It.]]></title>
+    <link href="http://coding2learn.org/blog/2013/06/08/its-our-own-fault-dot-dot-dot-deal-with-it/"/>
+    <updated>2013-06-08T10:02:00+01:00</updated>
+    <id>http://coding2learn.org/blog/2013/06/08/its-our-own-fault-dot-dot-dot-deal-with-it</id>
+    <content type="html"><![CDATA[<p><em>TL:DR I delete every cloud service I belong to and take back control of my data.</em></p>
+
+<p>I don&rsquo;t blame them. I just keep thinking about a future scene from the next bond film.</p>
+
+<p><strong>M:</strong> So you see 007, we need to find out which of the millions of citizens of this county has stollen the &lsquo;Space Laser&rsquo;.<br/>
+<strong>007:</strong> That might be tough M, but I&rsquo;m sure with the aid of an invisible car, a watch that shoots poisonous darts and a couple of scantily clad female Russian agents, I&rsquo;ll be able to find the culprit.<br/>
+<strong>M:</strong> Yeah, that&rsquo;s one option, but we thought we&rsquo;d just look on BookFace.<br/>
+<strong>007:</strong> What?<br/>
+<strong>M:</strong> BookFace, haven&rsquo;t you heard about it. You really are a dinosaur, 007. You see whereas a few years ago we had to run all kinds of covert undercover operations to find out what the residents of the country were doing, now we just need to look on BookFace.<br/>
+<strong>007:</strong> You mean they tell us their secrets? Idiots.<br/>
+<strong>M:</strong> I know. It seems that your average citizen is quite happy to share almost every facet of their lives; every iota of personal information; every thought, deed and desire, all in exchange for the ability to tell their friends and family that they&rsquo;ve just had a poo, or show them a cute picture of a cat with a whimsical caption beneath it.<br/>
+<strong>007:</strong> So what your saying, M, is that you don&rsquo;t really need me anymore.<br/>
+M: Not really 007. I&rsquo;ve just had Q access the BookFace servers and run a search for anyone who has updated their status along the lines of &lsquo;I&rsquo;ve just stolen a gigantic Space Laser… lol #WMD&rsquo;</p>
+
+<p>I&rsquo;m as guilty as everyone else out there. I talk to family on Facebook, friends on Google+ and colleagues on Twitter. I keep my documents in Dropbox, my notes in Evernote and my photos in Picassa. I keep my contacts in iCloud , my calendar in Gmail, my tasks on Wunderlist and I store my passwords in Lastpass. I even let Apple track my every movement in case I misplace my iPad, and Google track me when I need to know where the nearest McDonalds can be found.</p>
+
+<p>I&rsquo;ve signed up for a myriad of services, all of them apparently &lsquo;free&rsquo;, when in reality I&rsquo;ve purchased the services with my personal data. I could be outraged that this data has been accessible (by whatever method) to the NSA in the States and to GCHQ in the UK, but I also have to ask myself who is truly at fault here? By giving these corporations (that are all subject to the laws of the countries they operate in) our data, we have presented too easy an opportunity to the security services. Like a sheet of virgin bubble rap, they just couldn&rsquo;t help themselves. They had to start popping those privacy bubbles.</p>
+
+<p>Rather than get angry or upset, I&rsquo;ve decided to take action. I&rsquo;m going to try and quit them all. I&rsquo;m going to wrestle back control of my data, and ditch the cloud. To some extent the cat is already out of the bag, probably with an odd expression on it&rsquo;s face and a whimsical caption floating beneath it. My data is already out there, but I can try and stop providing them with any more.</p>
+
+<p>I&rsquo;m not going to ween myself off. I&rsquo;m going Big Bang style. This weekend I&rsquo;m getting rid of all my online accounts.</p>
+
+<ol>
+<li><p>Facebook &ndash; Piece of piss. I&rsquo;ve nothing of value stored on Facebook, so deleting my account was not an issue. And I do mean delete and not deactivate. I&rsquo;ve made that mistake before and it&rsquo;s just too tempting to pop back on just to see who&rsquo;s had a poo lately or posted a picture of a kitten that looks like it&rsquo;s having a poo.</p></li>
+<li><p>Dropbox &ndash; Not so easy. I&rsquo;ve carefully nurtured 20Gb of free storage on Dropbox over the years and I&rsquo;ll be sad to see it go. Nevertheless, I&rsquo;ve made the commitment to this so it has to be done. First thing to do is find an alternative. <a href="http://labs.bittorrent.com/experiments/sync.html">BitTorrent Sync</a> looks like it&rsquo;ll do the trick for now, so I&rsquo;ve installed it on my Mac Book and Mac Mini and transferred all my files over into my newly created BTSync folder. I then logged into Dropbox on the web and deleted my account.</p></li>
+</ol>
+
+
+<p><img src="http://coding2learn.org/post_images/OwnFault/Dropbox.png" alt="Dropbox" /></p>
+
+<ol>
+<li><p>Browser &ndash; I use Chrome, and I tend to be logged into my Google account while doing so.  I install Firefox and send Chrome to the trash.</p></li>
+<li><p>Search &ndash; No more Google search for me. This one is easy enough. I remove the default search tools from Firefox and install the curiously named <a href="https://duckduckgo.com/">Duck Duck Go</a> search tool. I also set my privacy settings so I&rsquo;m always in Private Browsing mode and I don&rsquo;t accept cookies.</p></li>
+<li><p>Browser Addons &ndash; Just to help to secure my privacy a little more, I&rsquo;ve installed <a href="https://addons.mozilla.org/en-US/firefox/addon/adblock-plus/">AdBlock Plus</a> and <a href="https://addons.mozilla.org/en-US/firefox/addon/noscript/">NoScript</a>.</p></li>
+<li><p>Internet &ndash; Know I&rsquo;m no 1337 hacker but I&rsquo;m pretty sure that if I want privacy online then I&rsquo;m going to need to hide my IP address at times. I&rsquo;ve played with Tor before, but I find it too slow. Additionally I&rsquo;ve no use for the Silk Road as my drug of choice is sold in packs of four at supermarkets.  Instead I&rsquo;ve opted for a VPN. <a href="http://btguard.com/">BTGuard</a> seems like a fairly reputable provider so I pay up front for three months worth of VPNing and configure it on my Mac.</p></li>
+<li><p>Microsoft &ndash; This one should be easy. I don&rsquo;t use Skype or Windows and my XBox account is separate. The only regret is that as an early adopter of Outlook.com, I&rsquo;m going to lose some cool email addresses. The problem however, is that when I try and close my account it tells me that I have to cancel my paid services (I don&rsquo;t have any) and as there is nothing to cancel, I&rsquo;m locked in a vicious circle. After a nice chat with a Microsoft &lsquo;Agent&rsquo;, I&rsquo;m told they&rsquo;ll get back to me within 3 weeks to close my account.</p></li>
+</ol>
+
+
+<p><img src="http://coding2learn.org/post_images/OwnFault/Microsoft.jpg" alt="Microsoft" /></p>
+
+<ol>
+<li><p>iCloud &ndash; This one&rsquo;s a fairly easy. First I need to transfer all my iWorks documents out of iCloud and into my BTSync folder. With that done I switch off iCloud syncing for my calendar, notes, contacts and just keep them all on my Mac.</p></li>
+<li><p>LastPass &ndash; I&rsquo;ve used this password manager for around a year, and I like it. However, in order to sync passwords across devices it stores them all in the cloud. <a href="https://agilebits.com/onepassword">1Password</a> seems like a sensible alternative, so I fork out my seventeen odd quid and install it. Transferring my passwords is a simple CSV export and import.</p></li>
+</ol>
+
+
+<p><img src="http://coding2learn.org/post_images/OwnFault/LastPass1.jpg" alt="Lastpass" /></p>
+
+<ol>
+<li>Phone &ndash; This one is a tricky one. First off let&rsquo;s tackle my phone. It&rsquo;s a Nexus 4, which means it&rsquo;s pretty much reliant on Google services. Luckily, it&rsquo;s a Nexus device so there are alternatives. I&rsquo;m opting for <a href="https://wiki.ubuntu.com/Touch/Install">Ubuntu Touch</a>. Now the OS is far from ready, but so long as I&rsquo;ve got the ability to send and receive calls and SMS, and I can browse the web, I can wait for the OS to become more fully featured as the months progress and get rid of that fourteen tweets notification. Following the instructions on the Ubuntu website was simple enough as my device was already rooted. I had a small heart attack when it went into an infinite boot cycle, but a quick wipe and a manual install resolved the issues and I have a nice new phone to play with.</li>
+</ol>
+
+
+<p><img src="http://coding2learn.org/post_images/OwnFault/UbuntuTouch.jpg" alt="Android" /></p>
+
+<ol>
+<li>Google &ndash; My main (non-work) email is my Gmail account, but I&rsquo;m not overly bothered about this. I also use G+ for photos and keeping in touch with people. I decide the most sensible option is to do a Google Takeout and export all my data. My broadband isn&rsquo;t the best however and its taking hours to download the 20Gb of data I have sitting on Google&rsquo;s servers.</li>
+</ol>
+
+
+<p><img src="http://coding2learn.org/post_images/OwnFault/Takeout.png" alt="Google" /></p>
+
+<p>I have an email within the battle-school domain which will now be my only personal email address. I haven&rsquo;t told anyone about my change of email address but I&rsquo;ve made sure all my accounts use the new one. If anyone needs to contact me they can call me (assuming my Ubuntu phone still works). I download GPG for Mac Mail and install it for a little extra security when I want it.</p>
+
+<p>There&rsquo;s a little more tidying up to do. I delete my other accounts like Evernote and Wunderlist, resolving to use SublimeText for that kind of thing from now on.</p>
+
+<p>So there we have it. I&rsquo;m free. My data from now on is mine. There are a few more things for me to look into. I&rsquo;d like to have access to a secure social network &ndash; possibly based on P2P technology with end-to-end encryption, but I&rsquo;ll save that for another day. I&rsquo;m going to carry on using Twitter, as it&rsquo;s all fairly public anyway with no pretense of privacy.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Selling Computer Science]]></title>
+    <link href="http://coding2learn.org/blog/2013/01/29/selling-computer-science/"/>
+    <updated>2013-01-29T09:55:00+00:00</updated>
+    <id>http://coding2learn.org/blog/2013/01/29/selling-computer-science</id>
+    <content type="html"><![CDATA[<iframe src="http://player.vimeo.com/video/69947264" width="750" height="420" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+
+<p> <p><a href="http://vimeo.com/69947264">Selling Computer Science</a> from <a href="http://vimeo.com/user19426535">Marc Scott</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
+
+<p>The idea for this video came from Rebecca Franks over on the CAS forums. I&rsquo;ve copied her original idea and just added my own flare.</p>
+]]></content>
+  </entry>
+  
+</feed>
