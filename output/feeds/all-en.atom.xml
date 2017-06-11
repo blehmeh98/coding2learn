@@ -26,7 +26,7 @@ n o p q r s t u v w x y z a b c d e f g h i j k l m
 
 &lt;p&gt;&lt;a href="https://github.com/MarcScott/simple_encryption/blob/master/cc.py"&gt;Here's an example of the Caesar Cipher, written in Python&lt;/a&gt; that I have used to teach teenagers about encryption.&lt;/p&gt;
 &lt;h2&gt;Early unbreakable encryption&lt;/h2&gt;
-&lt;p&gt;There were various improvements on the Caesar cipher, but they all suffer from being easily brute forced by computers or being subjected to letter frequency analysis. This all changed with the invention of the one-time pad.&lt;/p&gt;
+&lt;p&gt;There were various improvements on the Caesar cipher, but they all suffer from being easily brute forced or being subjected to letter frequency analysis. This all changed with the invention of the one-time pad.&lt;/p&gt;
 &lt;p&gt;The one-time pad is a genuine unbreakable method of encrypting and decrypting messages. To continue the analogy, it's like using a padlocked box, where both the padlock and the box are made from an unbreakable metal, and you never use the same key/lock combination twice.&lt;/p&gt;
 &lt;p&gt;The one-time pad is at it's heart a twin pair of notebooks, identical in every way. On each page of the notebooks there is a grid of random numbers. These numbers can be chosen by a computer, or a much more analogue method such as a bingo machine.&lt;/p&gt;
 &lt;p&gt;Here is an example of a single page of a one-time pad, only using the numbers 0-26 for simplicity's sake.&lt;/p&gt;
@@ -84,7 +84,7 @@ It's trivially easy to prove that &lt;code&gt;13337 x 103171 = 1375991627&lt;/co
 
 
 &lt;ul&gt;
-&lt;li&gt;Then find a number that when multiplied by the small prime and divided by the product of the two large primes, gives a remainder of &lt;code&gt;1&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Then find a number that when multiplied by the small prime and divided by this product, gives a remainder of &lt;code&gt;1&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;some_number * 13 ÷ 288 = some_other_number remainder 1
 &lt;/pre&gt;&lt;/div&gt;
@@ -174,7 +174,7 @@ remainder 17
 &lt;p&gt;&lt;strong&gt;Stop teaching encryption techniques in Mathematics and Computer Science courses at a University level.&lt;/strong&gt; You might also need to review the teaching of number theory in secondary schools. It's probably best if children are not taught about prime numbers, to be sure that they don't reinvent any cryptography techniques.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Put me in prison and restrict my access to any for of communication with the outside world.&lt;/strong&gt; I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Put me in prison and restrict my access to any form of communication with the outside world.&lt;/strong&gt; I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Yours faithfully&lt;/p&gt;

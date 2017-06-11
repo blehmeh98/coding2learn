@@ -115,7 +115,7 @@ This clever maths with primes can be used to encrypt messages. To see how easy t
 
 16 * 18 = 288
 ```
-- Then find a number that when multiplied by the small prime and divided by the product of the two large primes, gives a remainder of `1`.
+- Then find a number that when multiplied by the small prime and divided by this product, gives a remainder of `1`.
 ```
 some_number * 13 ÷ 288 = some_other_number remainder 1
 ```
@@ -192,12 +192,8 @@ Now that you hopefully have some understanding of encryption, let's have a brief
 
 4. **Stop teaching encryption techniques in Mathematics and Computer Science courses at a University level.** You might also need to review the teaching of number theory in secondary schools. It's probably best if children are not taught about prime numbers, to be sure that they don't reinvent any cryptography techniques.
 
-5. **Put me in prison and restrict my access to any for of communication with the outside world.** I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.
+5. **Put me in prison and restrict my access to any form of communication with the outside world.** I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.
 
 Yours faithfully
 
 Marc Scott
-
-
-
-
