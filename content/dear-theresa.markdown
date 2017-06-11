@@ -197,3 +197,5 @@ Now that you hopefully have some understanding of encryption, let's have a brief
 Yours faithfully
 
 Marc Scott
+
+note: I'm not a  Cryptography, Mathematics or Computer Science expert. I'm an educator. [This post can be found on Github](https://github.com/MarcScott/coding2learn/blob/master/content/dear-theresa.markdown) and if would like to correct or improve any elements then issues and pull requests are appreciated.
