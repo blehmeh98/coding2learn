@@ -44,7 +44,7 @@ exm tee fxg dghp ahp xfimr tgw phkmaexll bl max ihpxk hy dbgzl, yhk maxkx bl ghg
 
 ## Early unbreakable encryption
 
-There were various improvements on the Caesar cipher, but they all suffer from being easily brute forced by computers or being subjected to letter frequency analysis. This all changed with the invention of the one-time pad.
+There were various improvements on the Caesar cipher, but they all suffer from being easily brute forced or being subjected to letter frequency analysis. This all changed with the invention of the one-time pad.
 
 The one-time pad is a genuine unbreakable method of encrypting and decrypting messages. To continue the analogy, it's like using a padlocked box, where both the padlock and the box are made from an unbreakable metal, and you never use the same key/lock combination twice.
 
