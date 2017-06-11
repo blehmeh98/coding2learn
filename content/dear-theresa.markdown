@@ -6,7 +6,7 @@ Dear Theresa,
 
 I haven't written anything here for a couple of years, but recent events have inspired me to once again touch fingers to keyboard, in the hope that you might read this.
 
-What I'd like to talk to you about is **encryption**. Wait a second... Please keep reading. I know the subject sounds dull and overly technical. I recognise that you may have been told it's to difficult to understand for the layperson. You might even have been told that encryption is the reason terrorists can get away with atrocities. However, If you give me just 15 minutes or so of your time, then I'm sure you'll be better informed about what encryption is, and I'll even tell you how you can go about ensuring that encryption never again thwarts the countries security services. What have you got to lose?
+What I'd like to talk to you about is **encryption**. Wait a second... Please keep reading. I know the subject sounds dull and overly technical. I recognise that you may have been told it's to difficult to understand for the layperson. You might even have been told that encryption is the reason terrorists can get away with atrocities. However, If you give me just 15 minutes or so of your time, then I'm sure you'll be better informed about what encryption is, and I'll even tell you how you can go about ensuring that encryption never again thwarts the country's security services. What have you got to lose?
 
 ## What is Encryption?
 
