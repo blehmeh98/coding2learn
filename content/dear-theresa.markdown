@@ -1,8 +1,6 @@
-Title: Dear Theresa...
-date: 2017-03-29
+Title: Dear Theresa,
+date: 2017-06-11
 slug: dear-theresa
-
-Dear Theresa,
 
 I haven't written anything here for a couple of years, but recent events have inspired me to once again touch fingers to keyboard, in the hope that you might read this.
 
