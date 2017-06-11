@@ -1,6 +1,6 @@
 Title: Dear Theresa...
 date: 2017-03-29
-slug: a-beginners-guide-to-encryption
+slug: dear-theresa
 
 Dear Theresa,
 
@@ -12,7 +12,7 @@ What I'd like to talk to you about is **encryption**. Wait a second... Please ke
 
 Encryption is simply hiding information so that only an authorised individual can read it. Here's a simple analogy. if you want to send a message to your friend Robert, then you could buy yourself a metal box with a padlock. The padlock has two keys. One key you keep and the other you give to Robert. This way you can write a message, lock it in the box, and send the box to Robert, knowing that he's the only other person with a key, that can open it.
 
-Sending messages in padlocked boxes isn't a great way of sending a message though. For a start, it doesn't take much more than a hacksaw and a few spare minutes to cut through the padlock and dig out the message. Secondly, your postman is going to end up hating you for constantly sending heavy metal boxes through the mail.
+Sending messages in padlocked boxes isn't a great way of sending a communicating though. For a start, it doesn't take much more than a hacksaw and a few spare minutes to cut through the padlock and dig out the message. Secondly, your postman is going to end up hating you for constantly sending heavy metal boxes through the mail.
 
 In cryptography, rather than using physical keys and lockable boxes, we use mathematics.
 
@@ -55,8 +55,6 @@ The one-time pad is at it's heart a twin pair of notebooks, identical in every w
 Here is an example of a single page of a one-time pad, only using the numbers 0-26 for simplicity's sake.
 
 ```
-|    |    |    |    |    |    |    |    |    |    |
-|----+----+----+----+----+----+----+----+----+----|
 | 21 |  4 | 10 | 11 | 18 |  6 | 25 | 20 | 16 | 12 |
 | 23 |  2 | 21 |  6 | 21 | 16 |  2 | 13 |  7 |  3 |
 | 25 | 22 |  6 | 18 | 19 | 25 |  5 | 18 | 26 | 17 |
@@ -106,63 +104,71 @@ The analogy gets pulled a little thin here. You want Robert to send you a secret
 Mathematically this works on a simple principle. Let's take two prime numbers `13337` and `103171`.
 It's trivially easy to prove that `13337 x 103171 = 1375991627`. You can just type it into a calculator. It's really hard to find two prime numbers that when multiplied together makes exactly `1375991627` though. You don't have much choice but to keep multiplying prime numbers together until you find the two that work. Now in this example a computer can do it fairly quickly, but as we increase the size of the prime numbers, the length of time it takes a computer to brute force the solution, quickly stretches to the known life of the Universe.
 
-To see how easy this is to implement, we can use really low prime numbers, in what is known as the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)). The mathematics gets a little complicated, but most people with a reasonable understanding of secondary maths can manage it. I know, as I've taught it to twelve and thirteen year-olds.
+This clever maths with primes can be used to encrypt messages. To see how easy this is to implement, we can use really low prime numbers, and what is known as the [RSA cryptosystem](https://en.wikipedia.org/wiki/RSA_(cryptosystem)). The mathematics gets a little complicated, but most people with a reasonable understanding of secondary maths can manage it. I know, as I've taught it to twelve and thirteen year-olds.
 
-1. Choose three prime numbers. Let's go for `13`, `17` and `19`.
-2. Multiply the two largest numbers together. `17 x 19 = 323`
-3. Your public key is now a combination of this product and the small prime number `323 13`. You can share this with the world.
-4. To get your private key, you need to subtract `1` from your two large primes and multiply them together.
-   ```
-   17 - 1 = 16
-   19 - 1 = 18
-   16 * 18 = 288
-   ```
-5. Then find a number that when multiplied by the small prime and divided by the product of the two large primes, gives a remainder of `1`.
+- Choose three prime numbers. Let's go for `13`, `17` and `19`.
+- Multiply the two largest numbers together. `17 x 19 = 323`
+- Your public key is now a combination of this product and the small prime number `323 13`. You can share this with the world.
+- To get your private key, you need to subtract `1` from your two large primes and multiply them together.
+```
+17 - 1 = 16
+
+19 - 1 = 18
+
+16 * 18 = 288
+```
+- Then find a number that when multiplied by the small prime and divided by the product of the two large primes, gives a remainder of `1`.
 ```
 some_number * 13 ÷ 288 = some_other_number remainder 1
 ```
 
-6. In this case that number is `133`. Computers can quite easily calculate this.
+- In this case that number is `133`. Computers can quite easily calculate this.
 ```
 133 * 13 = 1729
 1729 ÷ 288 = 6 remainder 1
 ```
 
-7. You now have your private key. It's `323 133`
+- You now have your private key. It's `323 133`
 
 Now please bare with me. It's important that you understand that although the maths maybe a little complicated, it's not that difficult to implement. You send you public key off over the internet, and Robert gets his copy.
 
-1. Robert wants to encrypt the letter `q` to send it to you. He converts it to a number first, using it's position in the alphabet - `17`
+- Robert wants to encrypt the letter `q` to send it to you. He converts it to a number first, using it's position in the alphabet - `17`
 
-2. Now he raises that number to the power of the second part of your public key. 
+- Now he raises that number to the power of the second part of your public key. 
 
 ```
 17 ** 13 = 9904578032905937
 ```
 
-3. Now he divides that number by the first part of your public key, and works out the remainder.
+- Now he divides that number by the first part of your public key, and works out the remainder.
 
 ```
 9904578032905937 ÷ 323 = 30664328275250 remainder 187
 ```
 
-4. This number - `187` is now the ciphertext, that Robert can send off to you.
+- This number - `187` is now the ciphertext, that Robert can send off to you.
 
-5. You receive the number `187` by email. Raise it to the power of the second part of your private key.
+- You receive the number `187` by email. Raise it to the power of the second part of your private key.
 
 ```
 187 ** 133 = 142867573740720566967281881607100347295847400907671386091157121622780454369129479664615460769905626347535899931271341842520680048730294079130102722601895364310787622375946501020768888839654428347116807175403923673347503784689653101030237682797486439417148026581600192839120518456938618487878401112343947
 ```
 
-6. Wow, That's a big number. Now calculate the remainder when that number is divided by the first part of your private key.
+- Wow, That's a big number. Now calculate the remainder when that number is divided by the first part of your private key.
 
 ```
-142867573740720566967281881607100347295847400907671386091157121622780454369129479664615460769905626347535899931271341842520680048730294079130102722601895364310787622375946501020768888839654428347116807175403923673347503784689653101030237682797486439417148026581600192839120518456938618487878401112343947 ÷ 323 = 442314469785512581539161245422235995778036566832043721231550219640260682060418642693079682615153948474292406207252865372224104020193042907357701452102267201984216551240583474414661674655052564333398394342775448312722776663559110370250126302215824888785001731815323491471101026301914858467798032580608 remainder 17
+142867573740720566967281881607100347295847400907671386091157121622780454369129479664615460769905626347535899931271341842520680048730294079130102722601895364310787622375946501020768888839654428347116807175403923673347503784689653101030237682797486439417148026581600192839120518456938618487878401112343947
+
+÷ 323 = 
+
+442314469785512581539161245422235995778036566832043721231550219640260682060418642693079682615153948474292406207252865372224104020193042907357701452102267201984216551240583474414661674655052564333398394342775448312722776663559110370250126302215824888785001731815323491471101026301914858467798032580608
+
+remainder 17
 ```
 
-7. Notice that remainder. It's `17`, which is the position of `q` in the alphabet. You've decrypted the ciphertext and have the plaintext that Robert sent you.
+- Notice that remainder. It's `17`, which is the position of `q` in the alphabet. You've decrypted the ciphertext and have the plaintext that Robert sent you.
 
-Now obviously you have to do this maths on every letter in your message, but computers can do that very easily. Also using small prime numbers makes this pretty easy to brute force, but again computers come to the rescue by being able to perform these calculations on large primes without too much effort. I hope you can see how trivially easy it is to enact a basic form of encryption, using little more than a scientific calculator, and that is almost impossible to crack.
+Now obviously you have to do this maths on every letter in your message, but computers can do that very easily. Also using small prime numbers makes this pretty easy to brute force, but again computers come to the rescue by being able to perform these calculations on large primes without too much effort. I hope you can see how trivially easy it is to enact a basic form of encryption, using little more than a scientific calculator, that is almost impossible to crack.
 
 To show you how easy this was to implement, the functions to encrypt and decrypt text can be found [here](https://github.com/MarcScott/simple_encryption/blob/master/poor_rsa.py)
 
@@ -174,21 +180,21 @@ I even generated basic private and public keys using the numbers 983, 991, 997, 
 
 ## Better Encryption Algorithms
 
-I'm not going to detail the other encryption algorithms available. RSA was one of the first, and the simplest. There are many many more, such as [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP), [Blowfish](https://en.wikipedia.org/wiki/Blowfish_%28cipher%29) and [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard. You can read up about these on Wikipedia and many other places on the Web. You can download implementations of these algorithms from various sites to use in combination with your email and other messaging applications. You can even grab the code off GitHub and use encryption in your own software.
+I'm not going to detail the other encryption algorithms available. RSA was one of the first, and the simplest. There are many many more, such as [OpenPGP](https://en.wikipedia.org/wiki/Pretty_Good_Privacy#OpenPGP), [Blowfish](https://en.wikipedia.org/wiki/Blowfish_%28cipher%29) and [AES](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard). You can read up about these on Wikipedia and many other places on the Web. You can download implementations of these algorithms from various sites to use in combination with your email and other messaging applications. You can even grab the code off GitHub and use encryption in your own software.
 
 ## Some advice on combating encryption
 
 Now that you hopefully have some understanding of encryption, let's have a brief chat about how you could go about stopping people from using it to send secret messages to each other, that the security services can't read.
 
-1. Stop national and international companies using encryption in their products. This means not only stopping Facebook, Apple and Google using cryptography techniques in their messaging applications, you're also going to need to talk to Mozilla, for instance, as encryption is widely used on the web. You'll need to stop banks and other financial institutions from using encryption on their web traffic as well. If companies outside your jurisdiction refuse, you'd have to block access to their services, in much the same way China and North Korea do.
+1. **Stop national and international companies using encryption in their products.** This means not only stopping Facebook, Apple and Google using cryptography techniques in their messaging applications, you're also going to need to talk to Mozilla, for instance, as encryption is widely used on the web. You'll need to stop banks and other financial institutions from using encryption on their web traffic as well. If companies outside your jurisdiction refuse, you'd have to block access to their services, in much the same way China and North Korea do.
 
-2. Remove access to code repositories where encryption software is freely available. This includes sites such as GitHub and BitBucket, that developers use on a daily basis. There are many others that need blocking as well, and developers are a wily bunch, so you might need to get rid of Google Drive and Dropbox, as it's fairly easy to use these services to store code.
+2. **Remove access to code repositories where encryption software is freely available.** This includes sites such as GitHub and BitBucket, that developers use on a daily basis. There are many others that need blocking as well, and developers are a wily bunch, so you might need to get rid of Google Drive and Dropbox, as it's fairly easy to use these services to store code.
 
-3. Block sites that detail how encryption algorithms work. This includes sites such as StackOverflow where encryption algorithms and how to code them are discussed, as well as Wikipedia where the algorithms are detailed. There are a plethora of books you'll also need to ban that teach cryptography techniques. These will need to be outlawed and existing copies in homes and libraries destroyed. I hear that burning is an effective way of destroying a book.
+3. **Block sites that detail how encryption algorithms work.** This includes sites such as StackOverflow where encryption algorithms and how to code them are discussed, as well as Wikipedia where the algorithms are detailed. There are a plethora of books you'll also need to ban that teach cryptography techniques. These will need to be outlawed and existing copies in homes and libraries destroyed. I hear that burning is an effective way of destroying a book.
 
-4. Finally, stop teaching encryption techniques in Mathematics and Computer Science courses at a University level. You might also need to review the teaching of number theory in secondary schools. It's probably best if children are not taught about prime numbers, to be sure that they don't reinvent any cryptography techniques.
+4. **Finally, stop teaching encryption techniques in Mathematics and Computer Science courses at a University level.** You might also need to review the teaching of number theory in secondary schools. It's probably best if children are not taught about prime numbers, to be sure that they don't reinvent any cryptography techniques.
 
-5. Put me in prison and restrict my access to any for of communication with the outside world. I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.
+5. **Put me in prison and restrict my access to any for of communication with the outside world.** I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.
 
 Yours faithfully
 
