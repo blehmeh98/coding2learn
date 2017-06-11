@@ -192,7 +192,7 @@ Now that you hopefully have some understanding of encryption, let's have a brief
 
 3. **Block sites that detail how encryption algorithms work.** This includes sites such as StackOverflow where encryption algorithms and how to code them are discussed, as well as Wikipedia where the algorithms are detailed. There are a plethora of books you'll also need to ban that teach cryptography techniques. These will need to be outlawed and existing copies in homes and libraries destroyed. I hear that burning is an effective way of destroying a book.
 
-4. **Finally, stop teaching encryption techniques in Mathematics and Computer Science courses at a University level.** You might also need to review the teaching of number theory in secondary schools. It's probably best if children are not taught about prime numbers, to be sure that they don't reinvent any cryptography techniques.
+4. **Stop teaching encryption techniques in Mathematics and Computer Science courses at a University level.** You might also need to review the teaching of number theory in secondary schools. It's probably best if children are not taught about prime numbers, to be sure that they don't reinvent any cryptography techniques.
 
 5. **Put me in prison and restrict my access to any for of communication with the outside world.** I've promoted encrypted communication, taught about encrypted communication and used encrypted communication. I'm not going to stop.
 
