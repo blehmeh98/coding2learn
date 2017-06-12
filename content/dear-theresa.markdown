@@ -18,7 +18,7 @@ The message you want to hide is called **plaintext**. Once the message has been 
 
 One of the earliest methods of encrypting messages was called the Caesar cipher, so named because according to some sources it was used by the Roman Emperor Julius Caesar, when he sent messages to his generals.
 
-Imagine I want to encrypt the message `the quick brown fox jumps over the lazy dog`. First I choose a key between 1 and 25, let's go for 13. I then shift every letter in my message forward in the alphabet by 13 places. Here's a handy guide to show you the letter substitutions:
+Imagine I want to encrypt the message `the quick brown fox jumps over the lazy dog`. First I choose a key between 1 and 25. Let's go for 13. I then shift every letter in my message forward in the alphabet by 13 places. Here's a handy guide to show you the letter substitutions:
 
 ```
 a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -30,9 +30,9 @@ So any `a` in my plaintext message becomes an `n` in the ciphertext. A `b` becom
 
 The Caesar cipher was useless, even before the age of computers. For a start, it's easy to **brute force** the ciphertext to plaintext.
 
-Brute force just means trying all the possible combinations of a key, until you are successful. All an evil party, let's call her Evelyn, needs do is try every key from 1 to 25. She'll know after the first couple of words have been decrypted, if she's found the key or not.
+Brute force just means trying all the possible combinations of a key, until you are successful. All an evil party --- let's call her Evelyn --- needs do is try every key from 1 to 25. She'll know after the first couple of words have been decrypted if she's found the key or not.
 
-If Evelyn chooses not to brute force the answer, she could look at letter frequencies. For instance the letters `e` and `t` are the most frequently found letters in the English language. So all you need to do is find the two most common letters in the cipher text, and you can probably assume these are the letters `e` and `t`. This then lets you work out what the key is.
+If Evelyn chooses not to brute force the answer, she could look at letter frequencies. For instance the letters `e` and `t` are the most frequently found letters in the English language. So all she needs to do is find the two most common letters in the cipher text, and she can probably assume these are the letters `e` and `t`. This then lets her work out what the key is.
 
 This message has been encrypted using the Caesar cipher, and I have absolutely no doubt that it can easily be decrypted, even though I haven't used the number 13 as a key.
 
@@ -81,7 +81,7 @@ In this way the message becomes:
 hioe sd qf vck fwo ds tagd
 ```
 
-The beauty of this method of encryption is that brute forcing a solution is impossible. The only clue you have to what the cipher text contains is the length of each word. Letter frequency analysis is also impossible, as the same characters will be encrypted using different, random, shifts each time. You'll notice that the character `e` becomes `i`, `o`, `d` and then `d` in the encryption above.
+The beauty of this method of encryption is that brute forcing a solution is impossible. The only clue you have as to what the cipher text contains is the length of each word. Letter frequency analysis is also impossible, as the same characters will be encrypted using different, random, shifts each time. You'll notice that the character `e` becomes `i`, `o`, `d` and then `d` in the encryption above.
 
 You can find a simple example of how to create a one-time pad encryption scheme, written in Python, [here](https://github.com/MarcScott/simple_encryption/blob/master/otp.py)
 
@@ -198,4 +198,4 @@ Yours faithfully
 
 Marc Scott
 
-note: I'm not a  Cryptography, Mathematics or Computer Science expert. I'm an educator. [This post can be found on Github](https://github.com/MarcScott/coding2learn/blob/master/content/dear-theresa.markdown) and if would like to correct or improve any elements then issues and pull requests are appreciated.
+note: I'm not a  Cryptography, Mathematics or Computer Science expert. I'm an educator. [This post can be found on Github](https://github.com/MarcScott/coding2learn/blob/master/content/dear-theresa.markdown) and if you would like to correct or improve any elements then issues and pull requests are appreciated.
