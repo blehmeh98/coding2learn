@@ -53,16 +53,16 @@ The one-time pad is at it's heart a twin pair of notebooks, identical in every w
 Here is an example of a single page of a one-time pad, only using the numbers 0-26 for simplicity's sake.
 
 ```
-| 21 |  4 | 10 | 11 | 18 |  6 | 25 | 20 | 16 | 12 |
-| 23 |  2 | 21 |  6 | 21 | 16 |  2 | 13 |  7 |  3 |
-| 25 | 22 |  6 | 18 | 19 | 25 |  5 | 18 | 26 | 17 |
-| 14 |  9 | 23 |  7 |  2 |  2 |  2 |  1 | 14 |  3 |
-| 22 | 17 |  0 |  3 |  3 | 25 |  2 | 15 | 19 |  8 |
-| 12 | 23 |  0 | 25 |  8 | 24 | 14 | 16 |  1 | 18 |
-| 26 |  6 | 12 | 19 |  9 | 22 | 24 | 14 | 23 | 26 |
-| 11 |  8 | 13 |  4 | 21 | 11 | 23 | 11 | 23 |  6 |
-|  2 |  5 | 12 | 26 |  3 | 25 | 16 |  6 |  5 | 10 |
-| 26 |  4 | 21 |  0 |  1 | 26 | 25 |  3 | 17 |  7 |
+| 14 |  8 |  4 | 16 | 17 | 12 |  4 | 13 |  5 |  4 |
+|  9 | 19 | 23 | 16 |  8 |  9 | 25 | 21 | 12 |  1 |
+| 19 | 17 |  5 | 11 |  0 | 13 | 22 |  2 |  4 | 21 |
+|  5 | 14 | 22 | 23 |  3 |  1 | 14 | 18 |  9 | 24 |
+|  7 | 23 | 23 | 20 | 10 |  7 | 22 | 16 | 20 | 17 |
+|  4 |  2 | 12 | 23 | 24 |  4 |  1 | 19 | 24 |  2 |
+| 11 | 25 |  3 | 12 |  4 |  1 | 17 | 25 | 16 |  8 |
+| 17 |  8 |  9 | 15 |  5 | 19 | 12 |  5 |  0 | 11 |
+|  7 |  6 | 19 |  5 | 16 |  1 |  3 | 13 | 10 |  4 |
+| 24 | 17 | 25 |  9 |  6 |  9 |  9 | 11 | 17 | 17 |
 ```
 
 Now imagine that you and Robert want to exchange messages. You both have copies of the same pad and importantly agree to destroy each page once it has been used once, so you always use a different page for each message you encrypt.
@@ -73,15 +73,15 @@ Now you can send Robert a message. Maybe:
 Meet me at the pub at nine
 ```
 
-So the first character in the message is an `m`, and the first number in the one-time pad is `21`. This means that the character `m` gets shifted twenty one places forward in the alphabet (cycling back around to `a` once `z` has been reached. The cipher text of the character `m` is now an `h`. Then you move on to the next, shifting the first `e` by four places and the second `e` by ten places.
+So the first character in the message is an `m`, and the first number in the one-time pad is `14`. This means that the character `m` gets shifted fourteen places forward in the alphabet (cycling back around to `a` once `z` has been reached. The cipher text of the character `m` is now an `a`. Then you move on to the next, shifting the first `e` by eight places and the second `e` by four places.
 
 In this way the message becomes:
 
 ```
-hioe sd qf vck fwo ds tagd
+amij yi fx meu ytw bm stnr
 ```
 
-The beauty of this method of encryption is that brute forcing a solution is impossible. The only clue you have as to what the cipher text contains is the length of each word. Letter frequency analysis is also impossible, as the same characters will be encrypted using different, random, shifts each time. You'll notice that the character `e` becomes `i`, `o`, `d` and then `d` in the encryption above.
+The beauty of this method of encryption is that brute forcing a solution is impossible. The only clue you have as to what the cipher text contains is the length of each word. Letter frequency analysis is also impossible, as the same characters will be encrypted using different, random, shifts each time. You'll notice that the character `e` becomes `m`, `i`, `i` and then `r` in the encryption above.
 
 You can find a simple example of how to create a one-time pad encryption scheme, written in Python, [here](https://github.com/MarcScott/simple_encryption/blob/master/otp.py)
 
@@ -90,7 +90,7 @@ So we have unbreakable encryption, but it has one colossal flaw. In this case, t
 If a one-time pad has been intercepted during key exchange, it is useless. That's why I know that the following message, using the one-time pad above, can easily be decrypted.
 
 ```
-cxdak://uz.ydqdfgqpd.kxy/vnci/qrqpbgpgcxn
+vbxfj://jr.pfaqydyub.fwr/jemm/hwpfcfbxxsy
 ```
 
 ## Public Key Cryptography
